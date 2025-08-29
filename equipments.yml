@@ -1,0 +1,944 @@
+equipments:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴇǫᴜɪᴘᴍᴇɴᴛ &0(%page%/4)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    LEATHER_HELMET:
+      type: item
+      item:
+        material: LEATHER_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 15.25
+      sellPrice: -1
+      slot: 10
+    LEATHER_CHESTPLATE:
+      type: item
+      item:
+        material: LEATHER_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 20.75
+      sellPrice: -1
+      slot: 19
+    LEATHER_LEGGINGS:
+      type: item
+      item:
+        material: LEATHER_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 17.95
+      sellPrice: -1
+      slot: 28
+    LEATHER_BOOTS:
+      type: item
+      item:
+        material: LEATHER_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 16.75
+      sellPrice: -1
+      slot: 37
+    CHAINMAIL_HELMET:
+      type: item
+      item:
+        material: CHAINMAIL_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 35.20
+      sellPrice: -1
+      slot: 11
+    CHAINMAIL_CHESTPLATE:
+      type: item
+      item:
+        material: CHAINMAIL_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 55.95
+      sellPrice: -1
+      slot: 20
+    CHAINMAIL_LEGGINGS:
+      type: item
+      item:
+        material: CHAINMAIL_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 42.75
+      sellPrice: -1
+      slot: 29
+    CHAINMAIL_BOOTS:
+      type: item
+      item:
+        material: CHAINMAIL_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 30.95
+      sellPrice: -1
+      slot: 38
+    GOLDEN_HELMET:
+      type: item
+      item:
+        material: GOLDEN_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 102.80
+      sellPrice: -1
+      slot: 12
+    GOLDEN_CHESTPLATE:
+      type: item
+      item:
+        material: GOLDEN_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 215.80
+      sellPrice: -1
+      slot: 21
+    GOLDEN_LEGGINGS:
+      type: item
+      item:
+        material: GOLDEN_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 195.75
+      sellPrice: -1
+      slot: 30
+    GOLDEN_BOOTS:
+      type: item
+      item:
+        material: GOLDEN_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 125.80
+      sellPrice: -1
+      slot: 39
+    IRON_HELMET:
+      type: item
+      item:
+        material: IRON_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 200
+      sellPrice: -1
+      slot: 14
+    IRON_CHESTPLATE:
+      type: item
+      item:
+        material: IRON_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 600
+      sellPrice: -1
+      slot: 23
+    IRON_LEGGINGS:
+      type: item
+      item:
+        material: IRON_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 550
+      sellPrice: -1
+      slot: 32
+    IRON_BOOTS:
+      type: item
+      item:
+        material: IRON_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 400
+      sellPrice: -1
+      slot: 41
+    DIAMOND_HELMET:
+      type: item
+      item:
+        material: DIAMOND_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 2000
+      sellPrice: -1
+      slot: 15
+    DIAMOND_CHESTPLATE:
+      type: item
+      item:
+        material: DIAMOND_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 6000
+      sellPrice: -1
+      slot: 24
+    DIAMOND_LEGGINGS:
+      type: item
+      item:
+        material: DIAMOND_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 5500
+      sellPrice: -1
+      slot: 33
+    DIAMOND_BOOTS:
+      type: item
+      item:
+        material: DIAMOND_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 4000
+      sellPrice: -1
+      slot: 42
+    NETHERITE_HELMET:
+      type: item
+      item:
+        material: NETHERITE_HELMET
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 20000
+      sellPrice: -1
+      slot: 16
+    NETHERITE_CHESTPLATE:
+      type: item
+      item:
+        material: NETHERITE_CHESTPLATE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 60000
+      sellPrice: -1
+      slot: 25
+    NETHERITE_LEGGINGS:
+      type: item
+      item:
+        material: NETHERITE_LEGGINGS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 55000
+      sellPrice: -1
+      slot: 34
+    NETHERITE_BOOTS:
+      type: item
+      item:
+        material: NETHERITE_BOOTS
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 40000
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    WOODEN_SWORD:
+      type: item
+      item:
+        material: WOODEN_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 5
+      sellPrice: -1
+      slot: 11
+      page: 2
+    WOODEN_PICKAXE:
+      type: item
+      item:
+        material: WOODEN_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 7.5
+      sellPrice: -1
+      slot: 12
+      page: 2
+    WOODEN_AXE:
+      type: item
+      item:
+        material: WOODEN_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 7.5
+      sellPrice: -1
+      slot: 13
+      page: 2
+    WOODEN_SHOVEL:
+      type: item
+      item:
+        material: WOODEN_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 2.5
+      sellPrice: -1
+      slot: 14
+      page: 2
+    WOODEN_HOE:
+      type: item
+      item:
+        material: WOODEN_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 5
+      sellPrice: -1
+      slot: 15
+      page: 2
+    STONE_SWORD:
+      type: item
+      item:
+        material: STONE_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 10
+      sellPrice: -1
+      slot: 20
+      page: 2
+    STONE_PICKAXE:
+      type: item
+      item:
+        material: STONE_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 15
+      sellPrice: -1
+      slot: 21
+      page: 2
+    STONE_AXE:
+      type: item
+      item:
+        material: STONE_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 15
+      sellPrice: -1
+      slot: 22
+      page: 2
+    STONE_SHOVEL:
+      type: item
+      item:
+        material: STONE_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 5
+      sellPrice: -1
+      slot: 23
+      page: 2
+    STONE_HOE:
+      type: item
+      item:
+        material: STONE_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 10
+      sellPrice: -1
+      slot: 24
+      page: 2
+    GOLDEN_SWORD:
+      type: item
+      item:
+        material: GOLDEN_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 29
+      sellPrice: -1
+      slot: 29
+      page: 2
+    GOLDEN_PICKAXE:
+      type: item
+      item:
+        material: GOLDEN_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 75
+      sellPrice: -1
+      slot: 30
+      page: 2
+    GOLDEN_AXE:
+      type: item
+      item:
+        material: GOLDEN_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 75
+      sellPrice: -1
+      slot: 31
+      page: 2
+    GOLDEN_SHOVEL:
+      type: item
+      item:
+        material: GOLDEN_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 32
+      page: 2
+    GOLDEN_HOE:
+      type: item
+      item:
+        material: GOLDEN_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 50
+      sellPrice: -1
+      slot: 33
+      page: 2
+    IRON_SWORD:
+      type: item
+      item:
+        material: IRON_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 38
+      page: 2
+    IRON_PICKAXE:
+      type: item
+      item:
+        material: IRON_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 39
+      page: 2
+    IRON_AXE:
+      type: item
+      item:
+        material: IRON_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 40
+      page: 2
+    IRON_SHOVEL:
+      type: item
+      item:
+        material: IRON_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 50
+      sellPrice: -1
+      slot: 41
+      page: 2
+    IRON_HOE:
+      type: item
+      item:
+        material: IRON_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 42
+      page: 2
+    ## PAGE 3 ##
+    BACKGROUND_BLACK_2:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 3
+    BACKGROUND_GRAY_2:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 3
+    ITEM_BALANCE_2:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 3
+    DIAMOND_SWORD:
+      type: item
+      item:
+        material: DIAMOND_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 11
+      page: 3
+    DIAMOND_PICKAXE:
+      type: item
+      item:
+        material: DIAMOND_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 1500
+      sellPrice: -1
+      slot: 12
+      page: 3
+    DIAMOND_AXE:
+      type: item
+      item:
+        material: DIAMOND_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 1500
+      sellPrice: -1
+      slot: 13
+      page: 3
+    DIAMOND_SHOVEL:
+      type: item
+      item:
+        material: DIAMOND_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 500
+      sellPrice: -1
+      slot: 14
+      page: 3
+    DIAMOND_HOE:
+      type: item
+      item:
+        material: DIAMOND_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 15
+      page: 3
+    NETHERITE_SWORD:
+      type: item
+      item:
+        material: NETHERITE_SWORD
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 10000
+      sellPrice: -1
+      slot: 20
+      page: 3
+    NETHERITE_PICKAXE:
+      type: item
+      item:
+        material: NETHERITE_PICKAXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 15000
+      sellPrice: -1
+      slot: 21
+      page: 3
+    NETHERITE_AXE:
+      type: item
+      item:
+        material: NETHERITE_AXE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 15000
+      sellPrice: -1
+      slot: 22
+      page: 3
+    NETHERITE_SHOVEL:
+      type: item
+      item:
+        material: NETHERITE_SHOVEL
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 5000
+      sellPrice: -1
+      slot: 23
+      page: 3
+    NETHERITE_HOE:
+      type: item
+      item:
+        material: NETHERITE_HOE
+        flags:
+          - 'HIDE_ATTRIBUTES'
+        quantity: 1
+      buyPrice: 10000
+      sellPrice: -1
+      slot: 24
+      page: 3
+    DIAMOND_HORSE_ARMOR:
+      type: item
+      item:
+        material: DIAMOND_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 38
+      page: 3
+    IRON_HORSE_ARMOR:
+      type: item
+      item:
+        material: IRON_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 250
+      sellPrice: -1
+      slot: 39
+      page: 3
+    GOLDEN_HORSE_ARMOR:
+      type: item
+      item:
+        material: GOLDEN_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 41
+      page: 3
+    LEATHER_HORSE_ARMOR:
+      type: item
+      item:
+        material: LEATHER_HORSE_ARMOR
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 42
+      page: 3
+    ARROW:
+      type: item
+      item:
+        material: ARROW
+        quantity: 4
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 29
+      page: 3
+    BOW:
+      type: item
+      item:
+        material: BOW
+        quantity: 1
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 20
+      sellPrice: -1
+      slot: 30
+      page: 3
+    CLOCK:
+      type: item
+      item:
+        material: CLOCK
+        quantity: 1
+      buyPrice: 7.50
+      sellPrice: -1
+      slot: 31
+      page: 3
+    COMPASS:
+      type: item
+      item:
+        material: COMPASS
+        quantity: 1
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 40
+      page: 3
+    CROSSBOW:
+      type: item
+      item:
+        material: CROSSBOW
+        quantity: 1
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 35
+      sellPrice: -1
+      slot: 32
+      page: 3
+    SPECTRAL_ARROW:
+      type: item
+      item:
+        material: SPECTRAL_ARROW
+        quantity: 4
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 33
+      page: 3
+    ## PAGE 4
+    BACKGROUND_BLACK_3:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 4
+    BACKGROUND_GRAY_3:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 4
+    ITEM_BALANCE_3:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 4
+    FISHING_ROD:
+      type: item
+      item:
+        material: FISHING_ROD
+        quantity: 1
+      buyPrice: 10
+      sellPrice: -1
+      slot: 11
+      page: 4
+    SHEARS:
+      type: item
+      item:
+        material: SHEARS
+        quantity: 1
+      buyPrice: 5
+      sellPrice: -1
+      slot: 12
+      page: 4
+    NAME_TAG:
+      type: item
+      item:
+        material: NAME_TAG
+        quantity: 1
+      buyPrice: 10000
+      sellPrice: -1
+      slot: 13
+      page: 4
+    SADDLE:
+      type: item
+      item:
+        material: SADDLE
+        quantity: 1
+      buyPrice: 150000
+      sellPrice: -1
+      slot: 14
+      page: 4
+    SPYGLASS:
+      type: item
+      item:
+        material: SPYGLASS
+        quantity: 1
+      buyPrice: 300
+      sellPrice: -1
+      slot: 15
+      page: 4
+    SHIELD:
+      type: item
+      item:
+        material: SHIELD
+        quantity: 1
+      buyPrice: 175
+      sellPrice: -1
+      slot: 20
+      page: 4
+    TRIDENT:
+      type: item
+      item:
+        material: TRIDENT
+        quantity: 1
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 300
+      sellPrice: -1
+      slot: 21
+      page: 4
+    TURTLE_HELMET:
+      type: item
+      item:
+        material: TURTLE_HELMET
+        quantity: 1
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 22
+      page: 4
+    BUCKET:
+      type: item
+      item:
+        material: BUCKET
+        quantity: 1
+      buyPrice: 15
+      sellPrice: -1
+      slot: 23
+      page: 4

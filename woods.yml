@@ -1,0 +1,1817 @@
+woods:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴡᴏᴏᴅ &0(%page%/10)"
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: "&r "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    OAK_LOG:
+      type: item
+      item:
+        material: OAK_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+    OAK_WOOD:
+      type: item
+      item:
+        material: OAK_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+    STRIPPED_OAK_LOG:
+      type: item
+      item:
+        material: STRIPPED_OAK_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+    STRIPPED_OAK_WOOD:
+      type: item
+      item:
+        material: STRIPPED_OAK_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+    OAK_PLANKS:
+      type: item
+      item:
+        material: OAK_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+    OAK_STAIRS:
+      type: item
+      item:
+        material: OAK_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+    OAK_SLAB:
+      type: item
+      item:
+        material: OAK_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+    OAK_FENCE:
+      type: item
+      item:
+        material: OAK_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+    OAK_FENCE_GATE:
+      type: item
+      item:
+        material: OAK_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+    OAK_TRAPDOOR:
+      type: item
+      item:
+        material: OAK_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+    OAK_DOOR:
+      type: item
+      item:
+        material: OAK_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+    OAK_PRESSURE_PLATE:
+      type: item
+      item:
+        material: OAK_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+    OAK_BUTTON:
+      type: item
+      item:
+        material: OAK_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+    OAK_SIGN:
+      type: item
+      item:
+        material: OAK_SIGN
+        quantity: 4
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 39
+    OAK_HANGING_SIGN:
+      type: item
+      item:
+        material: OAK_HANGING_SIGN
+        quantity: 2
+      buyPrice: 21.30
+      sellPrice: -1
+      slot: 41
+      ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    SPRUCE_LOG:
+      type: item
+      item:
+        material: SPRUCE_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 2
+    SPRUCE_WOOD:
+      type: item
+      item:
+        material: SPRUCE_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 2
+    STRIPPED_SPRUCE_LOG:
+      type: item
+      item:
+        material: STRIPPED_SPRUCE_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 2
+    STRIPPED_SPRUCE_WOOD:
+      type: item
+      item:
+        material: STRIPPED_SPRUCE_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 2
+    SPRUCE_PLANKS:
+      type: item
+      item:
+        material: SPRUCE_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 2
+    SPRUCE_STAIRS:
+      type: item
+      item:
+        material: SPRUCE_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 2
+    SPRUCE_SLAB:
+      type: item
+      item:
+        material: SPRUCE_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 2
+    SPRUCE_FENCE:
+      type: item
+      item:
+        material: SPRUCE_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 2
+    SPRUCE_FENCE_GATE:
+      type: item
+      item:
+        material: SPRUCE_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 2
+    SPRUCE_TRAPDOOR:
+      type: item
+      item:
+        material: SPRUCE_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 2
+    SPRUCE_DOOR:
+      type: item
+      item:
+        material: SPRUCE_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 2
+    SPRUCE_PRESSURE_PLATE:
+      type: item
+      item:
+        material: SPRUCE_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 2
+    SPRUCE_BUTTON:
+      type: item
+      item:
+        material: SPRUCE_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 2
+    SPRUCE_SIGN:
+      type: item
+      item:
+        material: SPRUCE_SIGN
+        quantity: 4
+      buyPrice: 11.30
+      sellPrice: -1
+      slot: 39
+      page: 2
+    SPRUCE_HANGING_SIGN:
+      type: item
+      item:
+        material: SPRUCE_HANGING_SIGN
+        quantity: 2
+      buyPrice: 23.25
+      sellPrice: -1
+      slot: 41
+      page: 2
+      ## PAGE 3 ##
+    BACKGROUND_BLACK_2:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 3
+    BACKGROUND_GRAY_2:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 3
+    ITEM_BALANCE_2:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 3
+    DARK_OAK_LOG:
+      type: item
+      item:
+        material: DARK_OAK_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 3
+    DARK_OAK_WOOD:
+      type: item
+      item:
+        material: DARK_OAK_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 3
+    STRIPPED_DARK_OAK_LOG:
+      type: item
+      item:
+        material: STRIPPED_DARK_OAK_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 3
+    STRIPPED_DARK_OAK_WOOD:
+      type: item
+      item:
+        material: STRIPPED_DARK_OAK_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 3
+    DARK_OAK_PLANKS:
+      type: item
+      item:
+        material: DARK_OAK_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 3
+    DARK_OAK_STAIRS:
+      type: item
+      item:
+        material: DARK_OAK_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 3
+    DARK_OAK_SLAB:
+      type: item
+      item:
+        material: DARK_OAK_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 3
+    DARK_OAK_FENCE:
+      type: item
+      item:
+        material: DARK_OAK_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 3
+    DARK_OAK_FENCE_GATE:
+      type: item
+      item:
+        material: DARK_OAK_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 3
+    DARK_OAK_TRAPDOOR:
+      type: item
+      item:
+        material: DARK_OAK_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 3
+    DARK_OAK_DOOR:
+      type: item
+      item:
+        material: DARK_OAK_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 3
+    DARK_OAK_PRESSURE_PLATE:
+      type: item
+      item:
+        material: DARK_OAK_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 3
+    DARK_OAK_BUTTON:
+      type: item
+      item:
+        material: DARK_OAK_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 3
+    DARK_OAK_SIGN:
+      type: item
+      item:
+        material: DARK_OAK_SIGN
+        quantity: 4
+      buyPrice: 13.25
+      sellPrice: -1
+      slot: 39
+      page: 3
+    DARK_OAK_HANGING_SIGN:
+      type: item
+      item:
+        material: DARK_OAK_HANGING_SIGN
+        quantity: 2
+      buyPrice: 26.25
+      sellPrice: -1
+      slot: 41
+      page: 3
+      ## PAGE 4 ##
+    BACKGROUND_BLACK_3:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 4
+    BACKGROUND_GRAY_3:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 4
+    ITEM_BALANCE_3:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 4
+    JUNGLE_LOG:
+      type: item
+      item:
+        material: JUNGLE_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 4
+    JUNGLE_WOOD:
+      type: item
+      item:
+        material: JUNGLE_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 4
+    STRIPPED_JUNGLE_LOG:
+      type: item
+      item:
+        material: STRIPPED_JUNGLE_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 4
+    STRIPPED_JUNGLE_WOOD:
+      type: item
+      item:
+        material: STRIPPED_JUNGLE_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 4
+    JUNGLE_PLANKS:
+      type: item
+      item:
+        material: JUNGLE_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 4
+    JUNGLE_STAIRS:
+      type: item
+      item:
+        material: JUNGLE_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 4
+    JUNGLE_SLAB:
+      type: item
+      item:
+        material: JUNGLE_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 4
+    JUNGLE_FENCE:
+      type: item
+      item:
+        material: JUNGLE_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 4
+    JUNGLE_FENCE_GATE:
+      type: item
+      item:
+        material: JUNGLE_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 4
+    JUNGLE_TRAPDOOR:
+      type: item
+      item:
+        material: JUNGLE_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 4
+    JUNGLE_DOOR:
+      type: item
+      item:
+        material: JUNGLE_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 4
+    JUNGLE_PRESSURE_PLATE:
+      type: item
+      item:
+        material: JUNGLE_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 4
+    JUNGLE_BUTTON:
+      type: item
+      item:
+        material: JUNGLE_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 4
+    JUNGLE_SIGN:
+      type: item
+      item:
+        material: JUNGLE_SIGN
+        quantity: 4
+      buyPrice: 12.85
+      sellPrice: -1
+      slot: 39
+      page: 4
+    JUNGLE_HANGING_SIGN:
+      type: item
+      item:
+        material: JUNGLE_HANGING_SIGN
+        quantity: 2
+      buyPrice: 25.10
+      sellPrice: -1
+      slot: 41
+      page: 4
+      ## PAGE 5 ##
+    BACKGROUND_BLACK_4:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 5
+    BACKGROUND_GRAY_4:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 5
+    ITEM_BALANCE_4:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 5
+    BIRCH_LOG:
+      type: item
+      item:
+        material: BIRCH_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 5
+    BIRCH_WOOD:
+      type: item
+      item:
+        material: BIRCH_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 5
+    STRIPPED_BIRCH_LOG:
+      type: item
+      item:
+        material: STRIPPED_BIRCH_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 5
+    STRIPPED_BIRCH_WOOD:
+      type: item
+      item:
+        material: STRIPPED_BIRCH_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 5
+    BIRCH_PLANKS:
+      type: item
+      item:
+        material: BIRCH_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 5
+    BIRCH_STAIRS:
+      type: item
+      item:
+        material: BIRCH_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 5
+    BIRCH_SLAB:
+      type: item
+      item:
+        material: BIRCH_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 5
+    BIRCH_FENCE:
+      type: item
+      item:
+        material: BIRCH_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 5
+    BIRCH_FENCE_GATE:
+      type: item
+      item:
+        material: BIRCH_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 5
+    BIRCH_TRAPDOOR:
+      type: item
+      item:
+        material: BIRCH_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 5
+    BIRCH_DOOR:
+      type: item
+      item:
+        material: BIRCH_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 5
+    BIRCH_PRESSURE_PLATE:
+      type: item
+      item:
+        material: BIRCH_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 5
+    BIRCH_BUTTON:
+      type: item
+      item:
+        material: BIRCH_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 5
+    BIRCH_SIGN:
+      type: item
+      item:
+        material: BIRCH_SIGN
+        quantity: 4
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 39
+      page: 5
+    BIRCH_HANGING_SIGN:
+      type: item
+      item:
+        material: BIRCH_HANGING_SIGN
+        quantity: 2
+      buyPrice: 20.75
+      sellPrice: -1
+      slot: 41
+      page: 5
+      ## PAGE 6 ##
+    BACKGROUND_BLACK_5:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 6
+    BACKGROUND_GRAY_5:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 6
+    ITEM_BALANCE_5:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 6
+    MANGROVE_LOG:
+      type: item
+      item:
+        material: MANGROVE_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 6
+    MANGROVE_WOOD:
+      type: item
+      item:
+        material: MANGROVE_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 6
+    STRIPPED_MANGROVE_LOG:
+      type: item
+      item:
+        material: STRIPPED_MANGROVE_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 6
+    STRIPPED_MANGROVE_WOOD:
+      type: item
+      item:
+        material: STRIPPED_MANGROVE_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 6
+    MANGROVE_PLANKS:
+      type: item
+      item:
+        material: MANGROVE_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 6
+    MANGROVE_STAIRS:
+      type: item
+      item:
+        material: MANGROVE_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 6
+    MANGROVE_SLAB:
+      type: item
+      item:
+        material: MANGROVE_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 6
+    MANGROVE_FENCE:
+      type: item
+      item:
+        material: MANGROVE_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 6
+    MANGROVE_FENCE_GATE:
+      type: item
+      item:
+        material: MANGROVE_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 6
+    MANGROVE_TRAPDOOR:
+      type: item
+      item:
+        material: MANGROVE_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 6
+    MANGROVE_DOOR:
+      type: item
+      item:
+        material: MANGROVE_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 6
+    MANGROVE_PRESSURE_PLATE:
+      type: item
+      item:
+        material: MANGROVE_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 6
+    MANGROVE_BUTTON:
+      type: item
+      item:
+        material: MANGROVE_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 6
+    MANGROVE_SIGN:
+      type: item
+      item:
+        material: MANGROVE_SIGN
+        quantity: 4
+      buyPrice: 11.95
+      sellPrice: -1
+      slot: 39
+      page: 6
+    MANGROVE_HANGING_SIGN:
+      type: item
+      item:
+        material: MANGROVE_HANGING_SIGN
+        quantity: 2
+      buyPrice: 22.35
+      sellPrice: -1
+      slot: 41
+      page: 6
+      ## PAGE 7 ##
+    BACKGROUND_BLACK_6:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 7
+    BACKGROUND_GRAY_6:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 7
+    ITEM_BALANCE_6:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 7
+    ACACIA_LOG:
+      type: item
+      item:
+        material: ACACIA_LOG
+        quantity: 2
+      buyPrice: 15.65
+      sellPrice: 3.25
+      slot: 11
+      page: 7
+    ACACIA_WOOD:
+      type: item
+      item:
+        material: ACACIA_WOOD
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: 6.95
+      slot: 12
+      page: 7
+    STRIPPED_ACACIA_LOG:
+      type: item
+      item:
+        material: STRIPPED_ACACIA_LOG
+        quantity: 2
+      buyPrice: 14.35
+      sellPrice: 1.25
+      slot: 13
+      page: 7
+    STRIPPED_ACACIA_WOOD:
+      type: item
+      item:
+        material: STRIPPED_ACACIA_WOOD
+        quantity: 1
+      buyPrice: 30.50
+      sellPrice: 3.65
+      slot: 14
+      page: 7
+    ACACIA_PLANKS:
+      type: item
+      item:
+        material: ACACIA_PLANKS
+        quantity: 4
+      buyPrice: 8.75
+      sellPrice: -1
+      slot: 15
+      page: 7
+    ACACIA_STAIRS:
+      type: item
+      item:
+        material: ACACIA_STAIRS
+        quantity: 3
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 21
+      page: 7
+    ACACIA_SLAB:
+      type: item
+      item:
+        material: ACACIA_SLAB
+        quantity: 5
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 22
+      page: 7
+    ACACIA_FENCE:
+      type: item
+      item:
+        material: ACACIA_FENCE
+        quantity: 6
+      buyPrice: 4.95
+      sellPrice: -1
+      slot: 23
+      page: 7
+    ACACIA_FENCE_GATE:
+      type: item
+      item:
+        material: ACACIA_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+      page: 7
+    ACACIA_TRAPDOOR:
+      type: item
+      item:
+        material: ACACIA_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 7
+    ACACIA_DOOR:
+      type: item
+      item:
+        material: ACACIA_DOOR
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 31
+      page: 7
+    ACACIA_PRESSURE_PLATE:
+      type: item
+      item:
+        material: ACACIA_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 32
+      page: 7
+    ACACIA_BUTTON:
+      type: item
+      item:
+        material: ACACIA_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 33
+      page: 7
+    ACACIA_SIGN:
+      type: item
+      item:
+        material: ACACIA_SIGN
+        quantity: 4
+      buyPrice: 13.20
+      sellPrice: -1
+      slot: 39
+      page: 7
+    ACACIA_HANGING_SIGN:
+      type: item
+      item:
+        material: ACACIA_HANGING_SIGN
+        quantity: 2
+      buyPrice: 20.20
+      sellPrice: -1
+      slot: 41
+      page: 7
+      ## PAGE 8 ##
+    BACKGROUND_BLACK_7:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 8
+    BACKGROUND_GRAY_7:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 8
+    ITEM_BALANCE_7:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 8
+    CHERRY_LOG:
+      type: item
+      item:
+        material: CHERRY_LOG
+        quantity: 2
+      buyPrice: 25.65
+      sellPrice: 3.95
+      slot: 11
+      page: 8
+    CHERRY_WOOD:
+      type: item
+      item:
+        material: CHERRY_WOOD
+        quantity: 1
+      buyPrice: 38.95
+      sellPrice: 8.25
+      slot: 12
+      page: 8
+    STRIPPED_CHERRY_LOG:
+      type: item
+      item:
+        material: STRIPPED_CHERRY_LOG
+        quantity: 2
+      buyPrice: 16.25
+      sellPrice: 3.5
+      slot: 13
+      page: 8
+    STRIPPED_CHERRY_WOOD:
+      type: item
+      item:
+        material: STRIPPED_CHERRY_WOOD
+        quantity: 1
+      buyPrice: 32.10
+      sellPrice: 4.25
+      slot: 14
+      page: 8
+    CHERRY_PLANKS:
+      type: item
+      item:
+        material: CHERRY_PLANKS
+        quantity: 4
+      buyPrice: 10.20
+      sellPrice: -1
+      slot: 15
+      page: 8
+    CHERRY_STAIRS:
+      type: item
+      item:
+        material: CHERRY_STAIRS
+        quantity: 3
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 21
+      page: 8
+    CHERRY_SLAB:
+      type: item
+      item:
+        material: CHERRY_SLAB
+        quantity: 5
+      buyPrice: 6.75
+      sellPrice: -1
+      slot: 22
+      page: 8
+    CHERRY_FENCE:
+      type: item
+      item:
+        material: CHERRY_FENCE
+        quantity: 6
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 23
+      page: 8
+    CHERRY_FENCE_GATE:
+      type: item
+      item:
+        material: CHERRY_FENCE_GATE
+        quantity: 1
+      buyPrice: 3.15
+      sellPrice: -1
+      slot: 29
+      page: 8
+    CHERRY_TRAPDOOR:
+      type: item
+      item:
+        material: CHERRY_TRAPDOOR
+        quantity: 1
+      buyPrice: 4.15
+      sellPrice: -1
+      slot: 30
+      page: 8
+    CHERRY_DOOR:
+      type: item
+      item:
+        material: CHERRY_DOOR
+        quantity: 1
+      buyPrice: 7.15
+      sellPrice: -1
+      slot: 31
+      page: 8
+    CHERRY_PRESSURE_PLATE:
+      type: item
+      item:
+        material: CHERRY_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 6.5
+      sellPrice: -1
+      slot: 32
+      page: 8
+    CHERRY_BUTTON:
+      type: item
+      item:
+        material: CHERRY_BUTTON
+        quantity: 2
+      buyPrice: 2.5
+      sellPrice: -1
+      slot: 33
+      page: 8
+    CHERRY_SIGN:
+      type: item
+      item:
+        material: CHERRY_SIGN
+        quantity: 4
+      buyPrice: 15.65
+      sellPrice: -1
+      slot: 39
+      page: 8
+    CHERRY_HANGING_SIGN:
+      type: item
+      item:
+        material: CHERRY_HANGING_SIGN
+        quantity: 2
+      buyPrice: 25.35
+      sellPrice: -1
+      slot: 41
+      page: 8
+      ## PAGE 9 ##
+    BACKGROUND_BLACK_8:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 9
+    BACKGROUND_GRAY_8:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 9
+    ITEM_BALANCE_8:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 9
+    CRIMSON_STEM:
+      type: item
+      item:
+        material: CRIMSON_STEM
+        quantity: 2
+      buyPrice: 27.65
+      sellPrice: 5.65
+      slot: 11
+      page: 9
+    CRIMSON_HYPHAE:
+      type: item
+      item:
+        material: CRIMSON_HYPHAE
+        quantity: 1
+      buyPrice: 35.65
+      sellPrice: 9.25
+      slot: 12
+      page: 9
+    STRIPPED_CRIMSON_STEM:
+      type: item
+      item:
+        material: STRIPPED_CRIMSON_STEM
+        quantity: 2
+      buyPrice: 25.05
+      sellPrice: 3.25
+      slot: 13
+      page: 9
+    STRIPPED_CRIMSON_HYPHAE:
+      type: item
+      item:
+        material: STRIPPED_CRIMSON_HYPHAE
+        quantity: 1
+      buyPrice: 32.40
+      sellPrice: 5.65
+      slot: 14
+      page: 9
+    CRIMSON_PLANKS:
+      type: item
+      item:
+        material: CRIMSON_PLANKS
+        quantity: 4
+      buyPrice: 12.85
+      sellPrice: -1
+      slot: 15
+      page: 9
+    CRIMSON_STAIRS:
+      type: item
+      item:
+        material: CRIMSON_STAIRS
+        quantity: 3
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 21
+      page: 9
+    CRIMSON_SLAB:
+      type: item
+      item:
+        material: CRIMSON_SLAB
+        quantity: 5
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 22
+      page: 9
+    CRIMSON_FENCE:
+      type: item
+      item:
+        material: CRIMSON_FENCE
+        quantity: 6
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 23
+      page: 9
+    CRIMSON_FENCE_GATE:
+      type: item
+      item:
+        material: CRIMSON_FENCE_GATE
+        quantity: 1
+      buyPrice: 4.25
+      sellPrice: -1
+      slot: 29
+      page: 9
+    CRIMSON_TRAPDOOR:
+      type: item
+      item:
+        material: CRIMSON_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 9
+    CRIMSON_DOOR:
+      type: item
+      item:
+        material: CRIMSON_DOOR
+        quantity: 1
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 31
+      page: 9
+    CRIMSON_PRESSURE_PLATE:
+      type: item
+      item:
+        material: CRIMSON_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 8
+      sellPrice: -1
+      slot: 32
+      page: 9
+    CRIMSON_BUTTON:
+      type: item
+      item:
+        material: CRIMSON_BUTTON
+        quantity: 2
+      buyPrice: 2
+      sellPrice: -1
+      slot: 33
+      page: 9
+    CRIMSON_SIGN:
+      type: item
+      item:
+        material: CRIMSON_SIGN
+        quantity: 4
+      buyPrice: 20.25
+      sellPrice: -1
+      slot: 39
+      page: 9
+    CRIMSON_HANGING_SIGN:
+      type: item
+      item:
+        material: CRIMSON_HANGING_SIGN
+        quantity: 2
+      buyPrice: 35.50
+      sellPrice: -1
+      slot: 41
+      page: 9
+      ## PAGE 9 ##
+    BACKGROUND_BLACK_9:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 10
+    BACKGROUND_GRAY_9:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 10
+    ITEM_BALANCE_9:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 10
+    WARPED_STEM:
+      type: item
+      item:
+        material: WARPED_STEM
+        quantity: 2
+      buyPrice: 27.65
+      sellPrice: 5.65
+      slot: 11
+      page: 10
+    WARPED_HYPHAE:
+      type: item
+      item:
+        material: WARPED_HYPHAE
+        quantity: 1
+      buyPrice: 35.65
+      sellPrice: 9.25
+      slot: 12
+      page: 10
+    STRIPPED_WARPED_STEM:
+      type: item
+      item:
+        material: STRIPPED_WARPED_STEM
+        quantity: 2
+      buyPrice: 25.05
+      sellPrice: 3.25
+      slot: 13
+      page: 10
+    STRIPPED_WARPED_HYPHAE:
+      type: item
+      item:
+        material: STRIPPED_WARPED_HYPHAE
+        quantity: 1
+      buyPrice: 32.40
+      sellPrice: 5.65
+      slot: 14
+      page: 10
+    WARPED_PLANKS:
+      type: item
+      item:
+        material: WARPED_PLANKS
+        quantity: 4
+      buyPrice: 12.85
+      sellPrice: -1
+      slot: 15
+      page: 10
+    WARPED_STAIRS:
+      type: item
+      item:
+        material: WARPED_STAIRS
+        quantity: 3
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 21
+      page: 10
+    WARPED_SLAB:
+      type: item
+      item:
+        material: WARPED_SLAB
+        quantity: 5
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 22
+      page: 10
+    WARPED_FENCE:
+      type: item
+      item:
+        material: WARPED_FENCE
+        quantity: 6
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 23
+      page: 10
+    WARPED_FENCE_GATE:
+      type: item
+      item:
+        material: WARPED_FENCE_GATE
+        quantity: 1
+      buyPrice: 4.25
+      sellPrice: -1
+      slot: 29
+      page: 10
+    WARPED_TRAPDOOR:
+      type: item
+      item:
+        material: WARPED_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 30
+      page: 10
+    WARPED_DOOR:
+      type: item
+      item:
+        material: WARPED_DOOR
+        quantity: 1
+      buyPrice: 6.35
+      sellPrice: -1
+      slot: 31
+      page: 10
+    WARPED_PRESSURE_PLATE:
+      type: item
+      item:
+        material: WARPED_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 8
+      sellPrice: -1
+      slot: 32
+      page: 10
+    WARPED_BUTTON:
+      type: item
+      item:
+        material: WARPED_BUTTON
+        quantity: 2
+      buyPrice: 2
+      sellPrice: -1
+      slot: 33
+      page: 10
+    WARPED_SIGN:
+      type: item
+      item:
+        material: WARPED_SIGN
+        quantity: 4
+      buyPrice: 19.25
+      sellPrice: -1
+      slot: 39
+      page: 10
+    WARPED_HANGING_SIGN:
+      type: item
+      item:
+        material: WARPED_HANGING_SIGN
+        quantity: 2
+      buyPrice: 30.75
+      sellPrice: -1
+      slot: 41
+      page: 10

@@ -1,0 +1,190 @@
+experience:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴇxᴘᴇʀɪᴇɴᴄᴇ &0(%page%/1)"
+  economy: EXP
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    UNBREAKING:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eUnbreaking &8| &eII'
+        enchantments:
+          - 'UNBREAKING:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 700
+      sellPrice: -1
+      slot: 10
+    SHARPNESS:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eSharpness &8| &eIII'
+        enchantments:
+          - 'SHARPNESS:3'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 1200
+      sellPrice: -1
+      slot: 11
+    LURE:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eLure &8| &eI'
+        enchantments:
+          - 'LURE:1'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 750
+      sellPrice: -1
+      slot: 12
+    LUCK_OF_THE_SEA:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eLuck of The Sea &8| &eI'
+        enchantments:
+          - 'LUCK_OF_THE_SEA:1'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 650
+      sellPrice: -1
+      slot: 13
+    FIRE_PROTECTION:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eFire Protection &8| &eIII'
+        enchantments:
+          - 'FIRE_PROTECTION:3'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 2000
+      sellPrice: -1
+      slot: 14
+    BLAST_PROTECTION:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eBlast Protection &8| &eIII'
+        enchantments:
+          - 'BLAST_PROTECTION:3'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 2000
+      sellPrice: -1
+      slot: 15
+    POWER:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&ePower &8| &eII'
+        enchantments:
+          - 'POWER:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 1500
+      sellPrice: -1
+      slot: 16
+    COAL:
+      type: item
+      item:
+        material: COAL
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 19
+    IRON_INGOT:
+      type: item
+      item:
+        material: IRON_INGOT
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 20
+    COPPER_INGOT:
+      type: item
+      item:
+        material: COPPER_INGOT
+        quantity: 1
+      buyPrice: 350
+      sellPrice: -1
+      slot: 21
+    GOLD_INGOT:
+      type: item
+      item:
+        material: GOLD_INGOT
+        quantity: 1
+      buyPrice: 205
+      sellPrice: -1
+      slot: 22
+    LAPIS_LAZULI:
+      type: item
+      item:
+        material: LAPIS_LAZULI
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 23
+    REDSTONE:
+      type: item
+      item:
+        material: REDSTONE
+        quantity: 1
+      buyPrice: 200
+      sellPrice: -1
+      slot: 24

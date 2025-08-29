@@ -1,0 +1,1375 @@
+stones:
+  name: "&0&l| &8ꜱʜᴏᴘ - ꜱᴛᴏɴᴇ &0(%page%/5)"
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: "&r "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    COBBLESTONE:
+      type: item
+      item:
+        material: COBBLESTONE
+        quantity: 1
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 10
+    COBBLESTONE_STAIRS:
+      type: item
+      item:
+        material: COBBLESTONE_STAIRS
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 19
+    COBBLESTONE_SLAB:
+      type: item
+      item:
+        material: COBBLESTONE_SLAB
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 28
+    COBBLESTONE_WALL:
+      type: item
+      item:
+        material: COBBLESTONE_WALL
+        quantity: 1
+      buyPrice: 4
+      sellPrice: -1
+      slot: 37
+    MOSSY_COBBLESTONE:
+      type: item
+      item:
+        material: MOSSY_COBBLESTONE
+        quantity: 1
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 11
+    MOSSY_COBBLESTONE_STAIRS:
+      type: item
+      item:
+        material: MOSSY_COBBLESTONE_STAIRS
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 20
+    MOSSY_COBBLESTONE_SLAB:
+      type: item
+      item:
+        material: MOSSY_COBBLESTONE_SLAB
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 29
+    MOSSY_COBBLESTONE_WALL:
+      type: item
+      item:
+        material: MOSSY_COBBLESTONE_WALL
+        quantity: 1
+      buyPrice: 4
+      sellPrice: -1
+      slot: 38
+    STONE_BRICKS:
+      type: item
+      item:
+        material: STONE_BRICKS
+        quantity: 1
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 12
+    STONE_BRICK_STAIRS:
+      type: item
+      item:
+        material: STONE_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 6.75
+      sellPrice: -1
+      slot: 21
+    STONE_BRICK_SLAB:
+      type: item
+      item:
+        material: STONE_BRICK_SLAB
+        quantity: 1
+      buyPrice: 4.50
+      sellPrice: -1
+      slot: 30
+    STONE_BRICK_WALL:
+      type: item
+      item:
+        material: STONE_BRICK_WALL
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 39
+    GRANITE:
+      type: item
+      item:
+        material: GRANITE
+        quantity: 1
+      buyPrice: 3
+      sellPrice: -1
+      slot: 13
+    GRANITE_STAIRS:
+      type: item
+      item:
+        material: GRANITE_STAIRS
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 22
+    GRANITE_SLAB:
+      type: item
+      item:
+        material: GRANITE_SLAB
+        quantity: 1
+      buyPrice: 2.65
+      sellPrice: -1
+      slot: 31
+    GRANITE_WALL:
+      type: item
+      item:
+        material: GRANITE_WALL
+        quantity: 1
+      buyPrice: 3.75
+      sellPrice: -1
+      slot: 40
+    DIORITE:
+      type: item
+      item:
+        material: DIORITE
+        quantity: 1
+      buyPrice: 3
+      sellPrice: -1
+      slot: 14
+    DIORITE_STAIRS:
+      type: item
+      item:
+        material: DIORITE_STAIRS
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 23
+    DIORITE_SLAB:
+      type: item
+      item:
+        material: DIORITE_SLAB
+        quantity: 1
+      buyPrice: 2.65
+      sellPrice: -1
+      slot: 32
+    DIORITE_WALL:
+      type: item
+      item:
+        material: DIORITE_WALL
+        quantity: 1
+      buyPrice: 3.75
+      sellPrice: -1
+      slot: 41
+    ANDESITE:
+      type: item
+      item:
+        material: ANDESITE
+        quantity: 1
+      buyPrice: 3
+      sellPrice: -1
+      slot: 15
+    ANDESITE_STAIRS:
+      type: item
+      item:
+        material: ANDESITE_STAIRS
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 24
+    ANDESITE_SLAB:
+      type: item
+      item:
+        material: ANDESITE_SLAB
+        quantity: 1
+      buyPrice: 2.65
+      sellPrice: -1
+      slot: 33
+    ANDESITE_WALL:
+      type: item
+      item:
+        material: ANDESITE_WALL
+        quantity: 1
+      buyPrice: 3.75
+      sellPrice: -1
+      slot: 42
+    COBBLED_DEEPSLATE:
+      type: item
+      item:
+        material: COBBLED_DEEPSLATE
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 16
+    COBBLED_DEEPSLATE_STAIRS:
+      type: item
+      item:
+        material: COBBLED_DEEPSLATE_STAIRS
+        quantity: 1
+      buyPrice: 3.85
+      sellPrice: -1
+      slot: 25
+    COBBLED_DEEPSLATE_SLAB:
+      type: item
+      item:
+        material: COBBLED_DEEPSLATE_SLAB
+        quantity: 1
+      buyPrice: 4.56
+      sellPrice: -1
+      slot: 34
+    COBBLED_DEEPSLATE_WALL:
+      type: item
+      item:
+        material: COBBLED_DEEPSLATE_WALL
+        quantity: 1
+      buyPrice: 6.85
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    POLISHED_DEEPSLATE:
+      type: item
+      item:
+        material: POLISHED_DEEPSLATE
+        quantity: 1
+      buyPrice: 6.25
+      sellPrice: -1
+      slot: 10
+      page: 2
+    POLISHED_DEEPSLATE_STAIRS:
+      type: item
+      item:
+        material: POLISHED_DEEPSLATE_STAIRS
+        quantity: 1
+      buyPrice: 5.85
+      sellPrice: -1
+      slot: 19
+      page: 2
+    POLISHED_DEEPSLATE_SLAB:
+      type: item
+      item:
+        material: POLISHED_DEEPSLATE_SLAB
+        quantity: 1
+      buyPrice: 6.56
+      sellPrice: -1
+      slot: 28
+      page: 2
+    POLISHED_DEEPSLATE_WALL:
+      type: item
+      item:
+        material: POLISHED_DEEPSLATE_WALL
+        quantity: 1
+      buyPrice: 8.85
+      sellPrice: -1
+      slot: 37
+      page: 2
+    DEEPSLATE_BRICKS:
+      type: item
+      item:
+        material: DEEPSLATE_BRICKS
+        quantity: 1
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 11
+      page: 2
+    DEEPSLATE_BRICK_STAIRS:
+      type: item
+      item:
+        material: DEEPSLATE_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 20
+      page: 2
+    DEEPSLATE_BRICK_SLAB:
+      type: item
+      item:
+        material: DEEPSLATE_BRICK_SLAB
+        quantity: 1
+      buyPrice: 8.56
+      sellPrice: -1
+      slot: 29
+      page: 2
+    DEEPSLATE_BRICK_WALL:
+      type: item
+      item:
+        material: DEEPSLATE_BRICK_WALL
+        quantity: 1
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 38
+      page: 2
+    DEEPSLATE_TILES:
+      type: item
+      item:
+        material: DEEPSLATE_TILES
+        quantity: 1
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 12
+      page: 2
+    DEEPSLATE_TILE_STAIRS:
+      type: item
+      item:
+        material: DEEPSLATE_TILE_STAIRS
+        quantity: 1
+      buyPrice: 9.25
+      sellPrice: -1
+      slot: 21
+      page: 2
+    DEEPSLATE_TILE_SLAB:
+      type: item
+      item:
+        material: DEEPSLATE_TILE_SLAB
+        quantity: 1
+      buyPrice: 10.56
+      sellPrice: -1
+      slot: 30
+      page: 2
+    DEEPSLATE_TILE_WALL:
+      type: item
+      item:
+        material: DEEPSLATE_TILE_WALL
+        quantity: 1
+      buyPrice: 12.25
+      sellPrice: -1
+      slot: 39
+      page: 2
+    BRICKS:
+      type: item
+      item:
+        material: BRICKS
+        quantity: 1
+      buyPrice: 6.25
+      sellPrice: -1
+      slot: 13
+      page: 2
+    BRICK_STAIRS:
+      type: item
+      item:
+        material: BRICK_STAIRS
+        quantity: 1
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 22
+      page: 2
+    BRICK_SLAB:
+      type: item
+      item:
+        material: BRICK_SLAB
+        quantity: 1
+      buyPrice: 4.25
+      sellPrice: -1
+      slot: 31
+      page: 2
+    BRICK_WALL:
+      type: item
+      item:
+        material: BRICK_WALL
+        quantity: 1
+      buyPrice: 3.80
+      sellPrice: -1
+      slot: 40
+      page: 2
+    MUD_BRICKS:
+      type: item
+      item:
+        material: MUD_BRICKS
+        quantity: 1
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 14
+      page: 2
+    MUD_BRICK_STAIRS:
+      type: item
+      item:
+        material: MUD_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 7.75
+      sellPrice: -1
+      slot: 23
+      page: 2
+    MUD_BRICK_SLAB:
+      type: item
+      item:
+        material: MUD_BRICK_SLAB
+        quantity: 1
+      buyPrice: 6.25
+      sellPrice: -1
+      slot: 32
+      page: 2
+    MUD_BRICK_WALL:
+      type: item
+      item:
+        material: MUD_BRICK_WALL
+        quantity: 1
+      buyPrice: 5.80
+      sellPrice: -1
+      slot: 41
+      page: 2
+    SANDSTONE:
+      type: item
+      item:
+        material: SANDSTONE
+        quantity: 1
+      buyPrice: 4.25
+      sellPrice: -1
+      slot: 15
+      page: 2
+    SANDSTONE_STAIRS:
+      type: item
+      item:
+        material: SANDSTONE_STAIRS
+        quantity: 1
+      buyPrice: 2.55
+      sellPrice: -1
+      slot: 24
+      page: 2
+    SANDSTONE_SLAB:
+      type: item
+      item:
+        material: SANDSTONE_SLAB
+        quantity: 1
+      buyPrice: 3.56
+      sellPrice: -1
+      slot: 33
+      page: 2
+    SANDSTONE_WALL:
+      type: item
+      item:
+        material: SANDSTONE_WALL
+        quantity: 1
+      buyPrice: 2.85
+      sellPrice: -1
+      slot: 42
+      page: 2
+    RED_SANDSTONE:
+      type: item
+      item:
+        material: RED_SANDSTONE
+        quantity: 1
+      buyPrice: 4.25
+      sellPrice: -1
+      slot: 16
+      page: 2
+    RED_SANDSTONE_STAIRS:
+      type: item
+      item:
+        material: RED_SANDSTONE_STAIRS
+        quantity: 1
+      buyPrice: 2.55
+      sellPrice: -1
+      slot: 25
+      page: 2
+    RED_SANDSTONE_SLAB:
+      type: item
+      item:
+        material: RED_SANDSTONE_SLAB
+        quantity: 1
+      buyPrice: 3.56
+      sellPrice: -1
+      slot: 34
+      page: 2
+    RED_SANDSTONE_WALL:
+      type: item
+      item:
+        material: RED_SANDSTONE_WALL
+        quantity: 1
+      buyPrice: 2.85
+      sellPrice: -1
+      slot: 43
+      page: 2
+    ## PAGE 3 ##
+    BACKGROUND_BLACK_2:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 3
+    BACKGROUND_GRAY_2:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 3
+    ITEM_BALANCE_2:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 3
+    PRISMARINE:
+      type: item
+      item:
+        material: PRISMARINE
+        quantity: 1
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 10
+      page: 3
+    PRISMARINE_STAIRS:
+      type: item
+      item:
+        material: PRISMARINE_STAIRS
+        quantity: 1
+      buyPrice: 6.25
+      sellPrice: -1
+      slot: 19
+      page: 3
+    PRISMARINE_SLAB:
+      type: item
+      item:
+        material: PRISMARINE_SLAB
+        quantity: 1
+      buyPrice: 5.56
+      sellPrice: -1
+      slot: 28
+      page: 3
+    PRISMARINE_WALL:
+      type: item
+      item:
+        material: PRISMARINE_WALL
+        quantity: 1
+      buyPrice: 4.85
+      sellPrice: -1
+      slot: 37
+      page: 3
+    NETHER_BRICKS:
+      type: item
+      item:
+        material: NETHER_BRICKS
+        quantity: 1
+      buyPrice: 12.25
+      sellPrice: -1
+      slot: 11
+      page: 3
+    NETHER_BRICK_STAIRS:
+      type: item
+      item:
+        material: NETHER_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 9.75
+      sellPrice: -1
+      slot: 20
+      page: 3
+    NETHER_BRICK_SLAB:
+      type: item
+      item:
+        material: NETHER_BRICK_SLAB
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 29
+      page: 3
+    NETHER_BRICK_WALL:
+      type: item
+      item:
+        material: NETHER_BRICK_WALL
+        quantity: 1
+      buyPrice: 6.95
+      sellPrice: -1
+      slot: 38
+      page: 3
+    RED_NETHER_BRICKS:
+      type: item
+      item:
+        material: RED_NETHER_BRICKS
+        quantity: 1
+      buyPrice: 12.25
+      sellPrice: -1
+      slot: 12
+      page: 3
+    RED_NETHER_BRICK_STAIRS:
+      type: item
+      item:
+        material: RED_NETHER_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 9.75
+      sellPrice: -1
+      slot: 21
+      page: 3
+    RED_NETHER_BRICK_SLAB:
+      type: item
+      item:
+        material: RED_NETHER_BRICK_SLAB
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 30
+      page: 3
+    RED_NETHER_BRICK_WALL:
+      type: item
+      item:
+        material: RED_NETHER_BRICK_WALL
+        quantity: 1
+      buyPrice: 6.95
+      sellPrice: -1
+      slot: 39
+      page: 3
+    BLACKSTONE:
+      type: item
+      item:
+        material: BLACKSTONE
+        quantity: 1
+      buyPrice: 9.25
+      sellPrice: -1
+      slot: 13
+      page: 3
+    BLACKSTONE_STAIRS:
+      type: item
+      item:
+        material: BLACKSTONE_STAIRS
+        quantity: 1
+      buyPrice: 8.25
+      sellPrice: -1
+      slot: 22
+      page: 3
+    BLACKSTONE_SLAB:
+      type: item
+      item:
+        material: BLACKSTONE_SLAB
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 31
+      page: 3
+    BLACKSTONE_WALL:
+      type: item
+      item:
+        material: BLACKSTONE_WALL
+        quantity: 1
+      buyPrice: 6.25
+      sellPrice: -1
+      slot: 40
+      page: 3
+    END_STONE_BRICKS:
+      type: item
+      item:
+        material: END_STONE_BRICKS
+        quantity: 1
+      buyPrice: 17.95
+      sellPrice: -1
+      slot: 14
+      page: 3
+    END_STONE_BRICK_STAIRS:
+      type: item
+      item:
+        material: END_STONE_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 15.25
+      sellPrice: -1
+      slot: 23
+      page: 3
+    END_STONE_BRICK_SLAB:
+      type: item
+      item:
+        material: END_STONE_BRICK_SLAB
+        quantity: 1
+      buyPrice: 14.75
+      sellPrice: -1
+      slot: 32
+      page: 3
+    END_STONE_BRICK_WALL:
+      type: item
+      item:
+        material: END_STONE_BRICK_WALL
+        quantity: 1
+      buyPrice: 21.30
+      sellPrice: -1
+      slot: 41
+      page: 3
+    MOSSY_STONE_BRICKS:
+      type: item
+      item:
+        material: MOSSY_STONE_BRICKS
+        quantity: 1
+      buyPrice: 10.75
+      sellPrice: -1
+      slot: 15
+      page: 3
+    MOSSY_STONE_BRICK_STAIRS:
+      type: item
+      item:
+        material: STONE_STAIRS
+        quantity: 1
+      buyPrice: 12.50
+      sellPrice: -1
+      slot: 24
+      page: 3
+    MOSSY_STONE_BRICK_SLAB:
+      type: item
+      item:
+        material: MOSSY_STONE_BRICK_SLAB
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 33
+      page: 3
+    MOSSY_STONE_BRICK_WALL:
+      type: item
+      item:
+        material: MOSSY_STONE_BRICK_WALL
+        quantity: 1
+      buyPrice: 6.95
+      sellPrice: -1
+      slot: 42
+      page: 3
+    POLISHED_BLACKSTONE:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE
+        quantity: 1
+      buyPrice: 16.95
+      sellPrice: -1
+      slot: 16
+      page: 3
+    POLISHED_BLACKSTONE_STAIRS:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE_STAIRS
+        quantity: 1
+      buyPrice: 10.15
+      sellPrice: -1
+      slot: 25
+      page: 3
+    POLISHED_BLACKSTONE_SLAB:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE_SLAB
+        quantity: 1
+      buyPrice: 9.15
+      sellPrice: -1
+      slot: 34
+      page: 3
+    POLISHED_BLACKSTONE_WALL:
+      type: item
+      item:
+        material: POLISHED_BLACKSTONE_WALL
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 43
+      page: 3
+    ## PAGE 4 ##
+    BACKGROUND_BLACK_3:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 4
+    BACKGROUND_GRAY_3:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 4
+    ITEM_BALANCE_3:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 4
+    STONE:
+      type: item
+      item:
+        material: STONE
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 10
+      page: 4
+    STONE_STAIRS:
+      type: item
+      item:
+        material: STONE_STAIRS
+        quantity: 1
+      buyPrice: 3.75
+      sellPrice: -1
+      slot: 11
+      page: 4
+    STONE_SLAB:
+      type: item
+      item:
+        material: STONE_SLAB
+        quantity: 1
+      buyPrice: 2.95
+      sellPrice: -1
+      slot: 12
+      page: 4
+    POLISHED_DIORITE:
+      type: item
+      item:
+        material: POLISHED_DIORITE
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 19
+      page: 4
+    POLISHED_DIORITE_STAIRS:
+      type: item
+      item:
+        material: POLISHED_DIORITE_STAIRS
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 20
+      page: 4
+    POLISHED_DIORITE_SLAB:
+      type: item
+      item:
+        material: POLISHED_DIORITE_SLAB
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 21
+      page: 4
+    POLISHED_GRANITE:
+      type: item
+      item:
+        material: POLISHED_GRANITE
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 28
+      page: 4
+    POLISHED_GRANITE_STAIRS:
+      type: item
+      item:
+        material: POLISHED_GRANITE_STAIRS
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 29
+      page: 4
+    POLISHED_GRANITE_SLAB:
+      type: item
+      item:
+        material: POLISHED_GRANITE_SLAB
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 30
+      page: 4
+    POLISHED_ANDESITE:
+      type: item
+      item:
+        material: POLISHED_ANDESITE
+        quantity: 1
+      buyPrice: 8.95
+      sellPrice: -1
+      slot: 37
+      page: 4
+    POLISHED_ANDESITE_STAIRS:
+      type: item
+      item:
+        material: POLISHED_ANDESITE_STAIRS
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 38
+      page: 4
+    POLISHED_ANDESITE_SLAB:
+      type: item
+      item:
+        material: POLISHED_ANDESITE_SLAB
+        quantity: 1
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 39
+      page: 4
+    SMOOTH_SANDSTONE:
+      type: item
+      item:
+        material: SMOOTH_SANDSTONE
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 14
+      page: 4
+    SMOOTH_SANDSTONE_STAIRS:
+      type: item
+      item:
+        material: SMOOTH_SANDSTONE_STAIRS
+        quantity: 1
+      buyPrice: 6.30
+      sellPrice: -1
+      slot: 15
+      page: 4
+    SMOOTH_SANDSTONE_SLAB:
+      type: item
+      item:
+        material: SMOOTH_SANDSTONE_SLAB
+        quantity: 1
+      buyPrice: 4.75
+      sellPrice: -1
+      slot: 16
+      page: 4
+    SMOOTH_RED_SANDSTONE:
+      type: item
+      item:
+        material: SMOOTH_RED_SANDSTONE
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: -1
+      slot: 23
+      page: 4
+    SMOOTH_RED_SANDSTONE_STAIRS:
+      type: item
+      item:
+        material: SMOOTH_RED_SANDSTONE_STAIRS
+        quantity: 1
+      buyPrice: 6.30
+      sellPrice: -1
+      slot: 24
+      page: 4
+    SMOOTH_RED_SANDSTONE_SLAB:
+      type: item
+      item:
+        material: SMOOTH_RED_SANDSTONE_SLAB
+        quantity: 1
+      buyPrice: 4.75
+      sellPrice: -1
+      slot: 25
+      page: 4
+    PRISMARINE_BRICKS:
+      type: item
+      item:
+        material: PRISMARINE_BRICKS
+        quantity: 1
+      buyPrice: 12.95
+      sellPrice: -1
+      slot: 32
+      page: 4
+    PRISMARINE_BRICK_STAIRS:
+      type: item
+      item:
+        material: PRISMARINE_BRICK_STAIRS
+        quantity: 1
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 33
+      page: 4
+    PRISMARINE_BRICK_SLAB:
+      type: item
+      item:
+        material: PRISMARINE_BRICK_SLAB
+        quantity: 1
+      buyPrice: 9.75
+      sellPrice: -1
+      slot: 34
+      page: 4
+    DARK_PRISMARINE:
+      type: item
+      item:
+        material: DARK_PRISMARINE
+        quantity: 1
+      buyPrice: 15.95
+      sellPrice: -1
+      slot: 41
+      page: 4
+    DARK_PRISMARINE_STAIRS:
+      type: item
+      item:
+        material: DARK_PRISMARINE_STAIRS
+        quantity: 1
+      buyPrice: 13.25
+      sellPrice: -1
+      slot: 42
+      page: 4
+    DARK_PRISMARINE_SLAB:
+      type: item
+      item:
+        material: DARK_PRISMARINE_SLAB
+        quantity: 1
+      buyPrice: 12.75
+      sellPrice: -1
+      slot: 43
+      page: 4
+    ## PAGE 5 ##
+    BACKGROUND_BLACK_4:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 5
+    BACKGROUND_GRAY_4:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 5
+    ITEM_BALANCE_4:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 5
+    PURPUR_BLOCK:
+      type: item
+      item:
+        material: PURPUR_BLOCK
+        quantity: 1
+      buyPrice: 20.95
+      sellPrice: -1
+      slot: 10
+      page: 5
+    PURPUR_STAIRS:
+      type: item
+      item:
+        material: PURPUR_STAIRS
+        quantity: 1
+      buyPrice: 18.25
+      sellPrice: -1
+      slot: 11
+      page: 5
+    PURPUR_SLAB:
+      type: item
+      item:
+        material: PURPUR_SLAB
+        quantity: 1
+      buyPrice: 17.75
+      sellPrice: -1
+      slot: 12
+      page: 5
+    QUARTZ_BLOCK:
+      type: item
+      item:
+        material: QUARTZ_BLOCK
+        quantity: 4
+      buyPrice: 20.95
+      sellPrice: 1.5
+      slot: 19
+      page: 5
+    QUARTZ_STAIRS:
+      type: item
+      item:
+        material: QUARTZ_STAIRS
+        quantity: 1
+      buyPrice: 18.25
+      sellPrice: -1
+      slot: 20
+      page: 5
+    QUARTZ_SLAB:
+      type: item
+      item:
+        material: QUARTZ_SLAB
+        quantity: 1
+      buyPrice: 17.75
+      sellPrice: -1
+      slot: 21
+      page: 5
+    SMOOTH_QUARTZ:
+      type: item
+      item:
+        material: SMOOTH_QUARTZ
+        quantity: 1
+      buyPrice: 23.95
+      sellPrice: -1
+      slot: 28
+      page: 5
+    SMOOTH_QUARTZ_STAIRS:
+      type: item
+      item:
+        material: SMOOTH_QUARTZ_STAIRS
+        quantity: 1
+      buyPrice: 21.25
+      sellPrice: -1
+      slot: 29
+      page: 5
+    SMOOTH_QUARTZ_SLAB:
+      type: item
+      item:
+        material: SMOOTH_QUARTZ_SLAB
+        quantity: 1
+      buyPrice: 20.75
+      sellPrice: -1
+      slot: 30
+      page: 5
+    CUT_COPPER:
+      type: item
+      item:
+        material: CUT_COPPER
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 37
+      page: 5
+    CUT_COPPER_STAIRS:
+      type: item
+      item:
+        material: CUT_COPPER_STAIRS
+        quantity: 1
+      buyPrice: 22.5
+      sellPrice: -1
+      slot: 38
+      page: 5
+    CUT_COPPER_SLAB:
+      type: item
+      item:
+        material: CUT_COPPER_SLAB
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 39
+      page: 5
+    EXPOSED_CUT_COPPER:
+      type: item
+      item:
+        material: EXPOSED_CUT_COPPER
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 14
+      page: 5
+    EXPOSED_CUT_COPPER_STAIRS:
+      type: item
+      item:
+        material: EXPOSED_CUT_COPPER_STAIRS
+        quantity: 1
+      buyPrice: 22.5
+      sellPrice: -1
+      slot: 15
+      page: 5
+    EXPOSED_CUT_COPPER_SLAB:
+      type: item
+      item:
+        material: EXPOSED_CUT_COPPER_SLAB
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 16
+      page: 5
+    WEATHERED_CUT_COPPER:
+      type: item
+      item:
+        material: WEATHERED_CUT_COPPER
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 23
+      page: 5
+    WEATHERED_CUT_COPPER_STAIRS:
+      type: item
+      item:
+        material: WEATHERED_CUT_COPPER_STAIRS
+        quantity: 1
+      buyPrice: 22.5
+      sellPrice: -1
+      slot: 24
+      page: 5
+    WEATHERED_CUT_COPPER_SLAB:
+      type: item
+      item:
+        material: WEATHERED_CUT_COPPER_SLAB
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 25
+      page: 5
+    OXIDIZED_CUT_COPPER:
+      type: item
+      item:
+        material: OXIDIZED_CUT_COPPER
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 32
+      page: 5
+    OXIDIZED_CUT_COPPER_STAIRS:
+      type: item
+      item:
+        material: OXIDIZED_CUT_COPPER_STAIRS
+        quantity: 1
+      buyPrice: 22.5
+      sellPrice: -1
+      slot: 33
+      page: 5
+    OXIDIZED_CUT_COPPER_SLAB:
+      type: item
+      item:
+        material: OXIDIZED_CUT_COPPER_SLAB
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 34
+      page: 5

@@ -1,0 +1,422 @@
+flora:
+  name: "&0&l| &8ꜱʜᴏᴘ - ꜰʟᴏʀᴀ ᴀɴᴅ ꜰᴀᴜɴᴀ &0(%page%/2)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    SHORT_GRASS:
+      type: item
+      item:
+        material: SHORT_GRASS
+        quantity: 4
+      buyPrice: 5.25
+      sellPrice: -1
+      slot: 10
+    FERN:
+      type: item
+      item:
+        material: FERN
+        quantity: 4
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 11
+    DEAD_BUSH:
+      type: item
+      item:
+        material: DEAD_BUSH
+        quantity: 2
+      buyPrice: 25.30
+      sellPrice: -1
+      slot: 12
+    DANDELION:
+      type: item
+      item:
+        material: DANDELION
+        quantity: 4
+      buyPrice: 15.75
+      sellPrice: -1
+      slot: 13
+    POPPY:
+      type: item
+      item:
+        material: POPPY
+        quantity: 4
+      buyPrice: 9.25
+      sellPrice: -1
+      slot: 14
+    BLUE_ORCHID:
+      type: item
+      item:
+        material: BLUE_ORCHID
+        quantity: 4
+      buyPrice: 11.95
+      sellPrice: -1
+      slot: 15
+    ALLIUM:
+      type: item
+      item:
+        material: ALLIUM
+        quantity: 4
+      buyPrice: 13.25
+      sellPrice: -1
+      slot: 16
+    AZURE_BLUET:
+      type: item
+      item:
+        material: AZURE_BLUET
+        quantity: 8
+      buyPrice: 19.30
+      sellPrice: -1
+      slot: 19
+    RED_TULIP:
+      type: item
+      item:
+        material: RED_TULIP
+        quantity: 2
+      buyPrice: 25.75
+      sellPrice: -1
+      slot: 20
+    ORANGE_TULIP:
+      type: item
+      item:
+        material: ORANGE_TULIP
+        quantity: 2
+      buyPrice: 31.25
+      sellPrice: -1
+      slot: 21
+    WHITE_TULIP:
+      type: item
+      item:
+        material: WHITE_TULIP
+        quantity: 2
+      buyPrice: 35.50
+      sellPrice: -1
+      slot: 22
+    PINK_TULIP:
+      type: item
+      item:
+        material: PINK_TULIP
+        quantity: 2
+      buyPrice: 42.55
+      sellPrice: -1
+      slot: 23
+    OXEYE_DAISY:
+      type: item
+      item:
+        material: OXEYE_DAISY
+        quantity: 6
+      buyPrice: 15.25
+      sellPrice: -1
+      slot: 24
+    CORNFLOWER:
+      type: item
+      item:
+        material: CORNFLOWER
+        quantity: 4
+      buyPrice: 20
+      sellPrice: -1
+      slot: 25
+    LILY_OF_THE_VALLEY:
+      type: item
+      item:
+        material: LILY_OF_THE_VALLEY
+        quantity: 4
+      buyPrice: 45.85
+      sellPrice: -1
+      slot: 28
+    TORCHFLOWER:
+      type: item
+      item:
+        material: TORCHFLOWER
+        quantity: 2
+      buyPrice: 65.50
+      sellPrice: -1
+      slot: 29
+    WITHER_ROSE:
+      type: item
+      item:
+        material: WITHER_ROSE
+        quantity: 1
+      buyPrice: 5000
+      sellPrice: -1
+      slot: 30
+    PINK_PETALS:
+      type: item
+      item:
+        material: PINK_PETALS
+        quantity: 4
+      buyPrice: 30.15
+      sellPrice: -1
+      slot: 31
+    SPORE_BLOSSOM:
+      type: item
+      item:
+        material: SPORE_BLOSSOM
+        quantity: 2
+      buyPrice: 25.95
+      sellPrice: -1
+      slot: 32
+    CRIMSON_ROOTS:
+      type: item
+      item:
+        material: CRIMSON_ROOTS
+        quantity: 2
+      buyPrice: 45.75
+      sellPrice: -1
+      slot: 33
+    WARPED_ROOTS:
+      type: item
+      item:
+        material: WARPED_ROOTS
+        quantity: 2
+      buyPrice: 40.15
+      sellPrice: -1
+      slot: 34
+    NETHER_SPROUTS:
+      type: item
+      item:
+        material: NETHER_SPROUTS
+        quantity: 4
+      buyPrice: 25.95
+      sellPrice: -1
+      slot: 37
+    WEEPING_VINES:
+      type: item
+      item:
+        material: WEEPING_VINES
+        quantity: 3
+      buyPrice: 15.95
+      sellPrice: -1
+      slot: 38
+    TWISTING_VINES:
+      type: item
+      item:
+        material: TWISTING_VINES
+        quantity: 3
+      buyPrice: 21.65
+      sellPrice: -1
+      slot: 39
+    VINE:
+      type: item
+      item:
+        material: VINE
+        quantity: 4
+      buyPrice: 25.50
+      sellPrice: -1
+      slot: 40
+    TALL_GRASS:
+      type: item
+      item:
+        material: TALL_GRASS
+        quantity: 6
+      buyPrice: 32.50
+      sellPrice: -1
+      slot: 41
+    LARGE_FERN:
+      type: item
+      item:
+        material: LARGE_FERN
+        quantity: 4
+      buyPrice: 28.75
+      sellPrice: -1
+      slot: 42
+    SUNFLOWER:
+      type: item
+      item:
+        material: SUNFLOWER
+        quantity: 2
+      buyPrice: 65.60
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    LILAC:
+      type: item
+      item:
+        material: LILAC
+        quantity: 4
+      buyPrice: 50.25
+      sellPrice: -1
+      slot: 10
+      page: 2
+    ROSE_BUSH:
+      type: item
+      item:
+        material: ROSE_BUSH
+        quantity: 4
+      buyPrice: 56.76
+      sellPrice: -1
+      slot: 11
+      page: 2
+    PEONY:
+      type: item
+      item:
+        material: PEONY
+        quantity: 4
+      buyPrice: 60.55
+      sellPrice: -1
+      slot: 12
+      page: 2
+    PITCHER_PLANT:
+      type: item
+      item:
+        material: PITCHER_PLANT
+        quantity: 2
+      buyPrice: 120.55
+      sellPrice: -1
+      slot: 13
+      page: 2
+    BIG_DRIPLEAF:
+      type: item
+      item:
+        material: BIG_DRIPLEAF
+        quantity: 4
+      buyPrice: 50.65
+      sellPrice: -1
+      slot: 14
+      page: 2
+    SMALL_DRIPLEAF:
+      type: item
+      item:
+        material: SMALL_DRIPLEAF
+        quantity: 2
+      buyPrice: 25.75
+      sellPrice: -1
+      slot: 15
+      page: 2
+    GLOW_LICHEN:
+      type: item
+      item:
+        material: GLOW_LICHEN
+        quantity: 4
+      buyPrice: 10
+      sellPrice: -1
+      slot: 16
+      page: 2
+    HANGING_ROOTS:
+      type: item
+      item:
+        material: HANGING_ROOTS
+        quantity: 6
+      buyPrice: 12.5
+      sellPrice: -1
+      slot: 19
+      page: 2
+    LILY_PAD:
+      type: item
+      item:
+        material: LILY_PAD
+        quantity: 2
+      buyPrice: 30.25
+      sellPrice: -1
+      slot: 20
+      page: 2
+    SEA_PICKLE:
+      type: item
+      item:
+        material: SEA_PICKLE
+        quantity: 2
+      buyPrice: 20.50
+      sellPrice: -1
+      slot: 21
+      page: 2
+    SEAGRASS:
+      type: item
+      item:
+        material: SEAGRASS
+        quantity: 4
+      buyPrice: 5
+      sellPrice: 2
+      slot: 22
+      page: 2

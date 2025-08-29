@@ -1,0 +1,243 @@
+drops:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴅʀᴏᴘꜱ &0(1/1)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    BLAZE_ROD:
+      type: item
+      item:
+        material: BLAZE_ROD
+        quantity: 1
+      buyPrice: 10.75
+      sellPrice: 1.85
+      slot: 10
+    BONE:
+      type: item
+      item:
+        material: BONE
+        quantity: 1
+      buyPrice: 7.50
+      sellPrice: -1
+      slot: 11
+    EGG:
+      type: item
+      item:
+        material: EGG
+        quantity: 1
+      buyPrice: 1.5
+      sellPrice: -1
+      slot: 12
+    ENDER_PEARL:
+      type: item
+      item:
+        material: ENDER_PEARL
+        quantity: 1
+      buyPrice: 12.50
+      sellPrice: 2.50
+      slot: 13
+    FEATHER:
+      type: item
+      item:
+        material: FEATHER
+        quantity: 1
+      buyPrice: 2
+      sellPrice: -1
+      slot: 14
+    FERMENTED_SPIDER_EYE:
+      type: item
+      item:
+        material: FERMENTED_SPIDER_EYE
+        quantity: 1
+      buyPrice: 12.50
+      sellPrice: 3
+      slot: 15
+    GHAST_TEAR:
+      type: item
+      item:
+        material: GHAST_TEAR
+        quantity: 1
+      buyPrice: 35
+      sellPrice: 5.85
+      slot: 16
+    GUNPOWDER:
+      type: item
+      item:
+        material: GUNPOWDER
+        quantity: 1
+      buyPrice: 6.75
+      sellPrice: -1
+      slot: 19
+    LEATHER:
+      type: item
+      item:
+        material: LEATHER
+        quantity: 1
+      buyPrice: 6
+      sellPrice: -1
+      slot: 20
+    MAGMA_CREAM:
+      type: item
+      item:
+        material: MAGMA_CREAM
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 2
+      slot: 21
+    PHANTOM_MEMBRANE:
+      type: item
+      item:
+        material: PHANTOM_MEMBRANE
+        quantity: 1
+      buyPrice: 13.75
+      sellPrice: 3
+      slot: 22
+    PRISMARINE_CRYSTALS:
+      type: item
+      item:
+        material: PRISMARINE_CRYSTALS
+        quantity: 1
+      buyPrice: 9.75
+      sellPrice: -1
+      slot: 23
+    PRISMARINE_SHARD:
+      type: item
+      item:
+        material: PRISMARINE_SHARD
+        quantity: 1
+      buyPrice: 11.50
+      sellPrice: -1
+      slot: 24
+    RABBIT_FOOT:
+      type: item
+      item:
+        material: RABBIT_FOOT
+        quantity: 1
+      buyPrice: 5.75
+      sellPrice: -1
+      slot: 25
+    RABBIT_HIDE:
+      type: item
+      item:
+        material: RABBIT_HIDE
+        quantity: 1
+      buyPrice: 5.10
+      sellPrice: -1
+      slot: 28
+    ROTTEN_FLESH:
+      type: item
+      item:
+        material: ROTTEN_FLESH
+        quantity: 1
+      buyPrice: 6.5
+      sellPrice: 0.5
+      slot: 29
+    SCUTE:
+      type: item
+      item:
+        material: SCUTE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 30
+    SLIME_BALL:
+      type: item
+      item:
+        material: SLIME_BALL
+        quantity: 1
+      buyPrice: 8.75
+      sellPrice: 1.25
+      slot: 31
+    SPIDER_EYE:
+      type: item
+      item:
+        material: SPIDER_EYE
+        quantity: 1
+      buyPrice: 7.25
+      sellPrice: 1.65
+      slot: 32
+    STRING:
+      type: item
+      item:
+        material: STRING
+        quantity: 1
+      buyPrice: 3.5
+      sellPrice: -1
+      slot: 33
+    COD:
+      type: item
+      item:
+        material: COD
+        quantity: 1
+      buyPrice: 10.25
+      sellPrice: 0.5
+      slot: 34
+    SALMON:
+      type: item
+      item:
+        material: SALMON
+        quantity: 1
+      buyPrice: 20.25
+      sellPrice: 1.25
+      slot: 37
+    TROPICAL_FISH:
+      type: item
+      item:
+        material: TROPICAL_FISH
+        quantity: 1
+      buyPrice: 15.65
+      sellPrice: -1
+      slot: 38
+    PUFFERFISH:
+      type: item
+      item:
+        material: PUFFERFISH
+        quantity: 1
+      buyPrice: 25.60
+      sellPrice: 1.3
+      slot: 39

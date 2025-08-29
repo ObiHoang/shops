@@ -1,0 +1,345 @@
+corals:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴄᴏʀᴀʟꜱ &0(%page%/2)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    HORN_CORAL_BLOCK:
+      type: item
+      item:
+        material: HORN_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 100.25
+      sellPrice: -1
+      slot: 10
+    HORN_CORAL:
+      type: item
+      item:
+        material: HORN_CORAL
+        quantity: 4
+      buyPrice: 75.65
+      sellPrice: -1
+      slot: 11
+    HORN_CORAL_FAN:
+      type: item
+      item:
+        material: HORN_CORAL_FAN
+        quantity: 4
+      buyPrice: 50.65
+      sellPrice: -1
+      slot: 12
+    DEAD_HORN_CORAL_BLOCK:
+      type: item
+      item:
+        material: DEAD_HORN_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 95.90
+      sellPrice: -1
+      slot: 14
+    DEAD_HORN_CORAL:
+      type: item
+      item:
+        material: DEAD_HORN_CORAL
+        quantity: 4
+      buyPrice: 70
+      sellPrice: -1
+      slot: 15
+    DEAD_HORN_CORAL_FAN:
+      type: item
+      item:
+        material: DEAD_HORN_CORAL_FAN
+        quantity: 4
+      buyPrice: 45
+      sellPrice: -1
+      slot: 16
+    FIRE_CORAL_BLOCK:
+      type: item
+      item:
+        material: FIRE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 125.30
+      sellPrice: -1
+      slot: 19
+    FIRE_CORAL:
+      type: item
+      item:
+        material: FIRE_CORAL
+        quantity: 4
+      buyPrice: 80.26
+      sellPrice: -1
+      slot: 20
+    FIRE_CORAL_FAN:
+      type: item
+      item:
+        material: FIRE_CORAL_FAN
+        quantity: 4
+      buyPrice: 50.65
+      sellPrice: -1
+      slot: 21
+    DEAD_FIRE_CORAL_BLOCK:
+      type: item
+      item:
+        material: DEAD_FIRE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 115.25
+      sellPrice: -1
+      slot: 23
+    DEAD_FIRE_CORAL:
+      type: item
+      item:
+        material: DEAD_FIRE_CORAL
+        quantity: 4
+      buyPrice: 75
+      sellPrice: -1
+      slot: 24
+    DEAD_FIRE_CORAL_FAN:
+      type: item
+      item:
+        material: DEAD_FIRE_CORAL_FAN
+        quantity: 4
+      buyPrice: 45.50
+      sellPrice: -1
+      slot: 25
+    BUBBLE_CORAL_BLOCK:
+      type: item
+      item:
+        material: BUBBLE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 145.65
+      sellPrice: -1
+      slot: 28
+    BUBBLE_CORAL:
+      type: item
+      item:
+        material: BUBBLE_CORAL
+        quantity: 4
+      buyPrice: 96.50
+      sellPrice: -1
+      slot: 29
+    BUBBLE_CORAL_FAN:
+      type: item
+      item:
+        material: BUBBLE_CORAL_FAN
+        quantity: 4
+      buyPrice: 45.50
+      sellPrice: -1
+      slot: 30
+    DEAD_BUBBLE_CORAL_BLOCK:
+      type: item
+      item:
+        material: DEAD_BUBBLE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 120
+      sellPrice: -1
+      slot: 32
+    DEAD_BUBBLE_CORAL:
+      type: item
+      item:
+        material: DEAD_BUBBLE_CORAL
+        quantity: 4
+      buyPrice: 90.65
+      sellPrice: -1
+      slot: 33
+    DEAD_BUBBLE_CORAL_FAN:
+      type: item
+      item:
+        material: DEAD_BUBBLE_CORAL_FAN
+        quantity: 4
+      buyPrice: 42.5
+      sellPrice: -1
+      slot: 34
+    BRAIN_CORAL_BLOCK:
+      type: item
+      item:
+        material: BRAIN_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 37
+    BRAIN_CORAL:
+      type: item
+      item:
+        material: BRAIN_CORAL
+        quantity: 4
+      buyPrice: 75
+      sellPrice: -1
+      slot: 38
+    BRAIN_CORAL_FAN:
+      type: item
+      item:
+        material: BRAIN_CORAL_FAN
+        quantity: 4
+      buyPrice: 50
+      sellPrice: -1
+      slot: 39
+    DEAD_BRAIN_CORAL_BLOCK:
+      type: item
+      item:
+        material: DEAD_BRAIN_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 125
+      sellPrice: -1
+      slot: 41
+    DEAD_BRAIN_CORAL:
+      type: item
+      item:
+        material: DEAD_BRAIN_CORAL
+        quantity: 4
+      buyPrice: 50
+      sellPrice: -1
+      slot: 42
+    DEAD_BRAIN_CORAL_FAN:
+      type: item
+      item:
+        material: DEAD_BRAIN_CORAL_FAN
+        quantity: 4
+      buyPrice: 25
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    TUBE_CORAL_BLOCK:
+      type: item
+      item:
+        material: TUBE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 102.5
+      sellPrice: -1
+      slot: 10
+      page: 2
+    TUBE_CORAL:
+      type: item
+      item:
+        material: TUBE_CORAL
+        quantity: 4
+      buyPrice: 56.65
+      sellPrice: -1
+      slot: 11
+      page: 2
+    TUBE_CORAL_FAN:
+      type: item
+      item:
+        material: TUBE_CORAL_FAN
+        quantity: 4
+      buyPrice: 35.65
+      sellPrice: -1
+      slot: 12
+      page: 2
+    DEAD_TUBE_CORAL_BLOCK:
+      type: item
+      item:
+        material: DEAD_TUBE_CORAL_BLOCK
+        quantity: 1
+      buyPrice: 95.50
+      sellPrice: -1
+      slot: 14
+      page: 2
+    DEAD_TUBE_CORAL:
+      type: item
+      item:
+        material: DEAD_TUBE_CORAL
+        quantity: 4
+      buyPrice: 45.80
+      sellPrice: -1
+      slot: 15
+      page: 2
+    DEAD_TUBE_CORAL_FAN:
+      type: item
+      item:
+        material: DEAD_TUBE_CORAL_FAN
+        quantity: 4
+      buyPrice: 25.50
+      sellPrice: -1
+      slot: 16
+      page: 2

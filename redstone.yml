@@ -1,0 +1,467 @@
+redstone:
+  name: "&0&l| &8ꜱʜᴏᴘ - ʀᴇᴅꜱᴛᴏɴᴇ &0(%page%/2)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    REDSTONE:
+      type: item
+      item:
+        material: REDSTONE
+        quantity: 1
+      buyPrice: 4
+      sellPrice: -1
+      slot: 10
+    REDSTONE_BLOCK:
+      type: item
+      item:
+        material: REDSTONE_BLOCK
+        quantity: 1
+      buyPrice: 25
+      sellPrice: 2.5
+      slot: 11
+    REDSTONE_TORCH:
+      type: item
+      item:
+        material: REDSTONE_TORCH
+        quantity: 2
+      buyPrice: 4
+      sellPrice: 
+      slot: 12
+    REPEATER:
+      type: item
+      item:
+        material: REPEATER
+        quantity: 1
+      buyPrice: 6
+      sellPrice: 
+      slot: 13
+    COMPARATOR:
+      type: item
+      item:
+        material: COMPARATOR
+        quantity: 1
+      buyPrice: 10
+      sellPrice: 
+      slot: 14
+    TARGET:
+      type: item
+      item:
+        material: TARGET
+        quantity: 1
+      buyPrice: 12.85
+      sellPrice: -1
+      slot: 15
+    LEVER:
+      type: item
+      item:
+        material: LEVER
+        quantity: 1
+      buyPrice: 5
+      sellPrice: -1
+      slot: 16
+    OAK_BUTTON:
+      type: item
+      item:
+        material: OAK_BUTTON
+        quantity: 2
+      buyPrice: 1
+      sellPrice: -1
+      slot: 19
+    STONE_BUTTON:
+      type: item
+      item:
+        material: STONE_BUTTON
+        quantity: 2
+      buyPrice: 4
+      sellPrice: -1
+      slot: 20
+    OAK_PRESSURE_PLATE:
+      type: item
+      item:
+        material: OAK_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 4
+      sellPrice: -1
+      slot: 21
+    STONE_PRESSURE_PLATE:
+      type: item
+      item:
+        material: STONE_PRESSURE_PLATE
+        quantity: 4
+      buyPrice: 16
+      sellPrice: -1
+      slot: 22
+    LIGHT_WEIGHTED_PRESSURE_PLATE:
+      type: item
+      item:
+        material: LIGHT_WEIGHTED_PRESSURE_PLATE
+        quantity: 2
+      buyPrice: 100
+      sellPrice: -1
+      slot: 23
+    HEAVY_WEIGHTED_PRESSURE_PLATE:
+      type: item
+      item:
+        material: HEAVY_WEIGHTED_PRESSURE_PLATE
+        quantity: 2
+      buyPrice: 100
+      sellPrice: -1
+      slot: 24
+    WHITE_WOOL:
+      type: item
+      item:
+        material: WHITE_WOOL
+        quantity: 2
+      buyPrice: 25
+      sellPrice: -1
+      slot: 25
+    TRIPWIRE_HOOK:
+      type: item
+      item:
+        material: TRIPWIRE_HOOK
+        quantity: 2
+      buyPrice: 10.55
+      sellPrice: -1
+      slot: 28
+    STRING:
+      type: item
+      item:
+        material: STRING
+        quantity: 1
+      buyPrice: 3.5
+      sellPrice: -1
+      slot: 29
+    LECTERN:
+      type: item
+      item:
+        material: LECTERN
+        quantity: 1
+      buyPrice: 15.65
+      sellPrice: -1
+      slot: 30
+    DAYLIGHT_DETECTOR:
+      type: item
+      item:
+        material: DAYLIGHT_DETECTOR
+        quantity: 2
+      buyPrice: 50.65
+      sellPrice: -1
+      slot: 31
+    LIGHTNING_ROD:
+      type: item
+      item:
+        material: LIGHTNING_ROD
+        quantity: 1
+      buyPrice: 500
+      sellPrice: -1
+      slot: 32
+    PISTON:
+      type: item
+      item:
+        material: PISTON
+        quantity: 1
+      buyPrice: 12.5
+      sellPrice: -1
+      slot: 33
+    STICKY_PISTON:
+      type: item
+      item:
+        material: STICKY_PISTON
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 34
+    SLIME_BLOCK:
+      type: item
+      item:
+        material: SLIME_BLOCK
+        quantity: 1
+      buyPrice: 30.75
+      sellPrice: -1
+      slot: 37
+    HONEY_BLOCK:
+      type: item
+      item:
+        material: HONEY_BLOCK
+        quantity: 1
+      buyPrice: 110.75
+      sellPrice: 20.55
+      slot: 38
+    DISPENSER:
+      type: item
+      item:
+        material: DISPENSER
+        quantity: 1
+      buyPrice: 25.50
+      sellPrice: -1
+      slot: 39
+    DROPPER:
+      type: item
+      item:
+        material: DROPPER
+        quantity: 1
+      buyPrice: 35.25
+      sellPrice: -1
+      slot: 40
+    HOPPER:
+      type: item
+      item:
+        material: HOPPER
+        quantity: 1
+      buyPrice: 75.80
+      sellPrice: -1
+      slot: 41
+    CHISELED_BOOKSHELF:
+      type: item
+      item:
+        material: CHISELED_BOOKSHELF
+        quantity: 1
+      buyPrice: 40
+      sellPrice: -1
+      slot: 42
+    REDSTONE_ORE:
+      type: item
+      item:
+        material: REDSTONE_ORE
+        quantity: 1
+      buyPrice: 7
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    JUKEBOX:
+      type: item
+      item:
+        material: JUKEBOX
+        quantity: 1
+      buyPrice: 30.25
+      sellPrice: -1
+      slot: 10
+      page: 2
+    OBSERVER:
+      type: item
+      item:
+        material: OBSERVER
+        quantity: 1
+      buyPrice: 65.50
+      sellPrice: -1
+      slot: 11
+      page: 2
+    NOTE_BLOCK:
+      type: item
+      item:
+        material: NOTE_BLOCK
+        quantity: 1
+      buyPrice: 25.10
+      sellPrice: -1
+      slot: 12
+      page: 2
+    COMPOSTER:
+      type: item
+      item:
+        material: COMPOSTER
+        quantity: 1
+      buyPrice: 45.25
+      sellPrice: -1
+      slot: 13
+      page: 2
+    CAULDRON:
+      type: item
+      item:
+        material: CAULDRON
+        quantity: 1
+      buyPrice: 85.95
+      sellPrice: -1
+      slot: 14
+      page: 2
+    RAIL:
+      type: item
+      item:
+        material: RAIL
+        quantity: 4
+      buyPrice: 30
+      sellPrice: -1
+      slot: 15
+      page: 2
+    POWERED_RAIL:
+      type: item
+      item:
+        material: POWERED_RAIL
+        quantity: 1
+      buyPrice: 25.50
+      sellPrice: -1
+      slot: 16
+      page: 2
+    DETECTOR_RAIL:
+      type: item
+      item:
+        material: DETECTOR_RAIL
+        quantity: 1
+      buyPrice: 20.15
+      sellPrice: -1
+      slot: 19
+      page: 2
+    ACTIVATOR_RAIL:
+      type: item
+      item:
+        material: ACTIVATOR_RAIL
+        quantity: 1
+      buyPrice: 35.65
+      sellPrice: -1
+      slot: 20
+      page: 2
+    OAK_FENCE_GATE:
+      type: item
+      item:
+        material: OAK_FENCE_GATE
+        quantity: 1
+      buyPrice: 2.75
+      sellPrice: -1
+      slot: 21
+      page: 2
+    OAK_TRAPDOOR:
+      type: item
+      item:
+        material: OAK_TRAPDOOR
+        quantity: 1
+      buyPrice: 3.25
+      sellPrice: -1
+      slot: 22
+      page: 2
+    IRON_TRAPDOOR:
+      type: item
+      item:
+        material: IRON_TRAPDOOR
+        quantity: 1
+      buyPrice: 35.65
+      sellPrice: -1
+      slot: 23
+      page: 2
+    TNT:
+      type: item
+      item:
+        material: TNT
+        quantity: 1
+      buyPrice: 65.60
+      sellPrice: -1
+      slot: 24
+      page: 2
+    REDSTONE_LAMP:
+      type: item
+      item:
+        material: REDSTONE_LAMP
+        quantity: 2
+      buyPrice: 35.25
+      sellPrice: -1
+      slot: 25
+      page: 2
+    ARMOR_STAND:
+      type: item
+      item:
+        material: ARMOR_STAND
+        quantity: 2
+      buyPrice: 18.25
+      sellPrice: -1
+      slot: 28
+      page: 2
+    COPPER_BULB:
+      type: item
+      item:
+        material: COPPER_BULB
+        quantity: 1
+      buyPrice: 125.50
+      sellPrice: -1
+      slot: 29
+      page: 2

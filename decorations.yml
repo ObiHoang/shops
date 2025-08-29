@@ -1,0 +1,530 @@
+decorations:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴅᴇᴄᴏʀᴀᴛɪᴏɴꜱ &0(%page%/2)"
+  economy: VAULT
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    BOOKSHELF:
+      type: item
+      item:
+        material: BOOKSHELF
+        quantity: 2
+      buyPrice: 100
+      sellPrice: 5
+      slot: 10
+    ANVIL:
+      type: item
+      item:
+        material: ANVIL
+        quantity: 1
+      buyPrice: 5000
+      sellPrice: 100
+      slot: 11
+    ENDER_CHEST:
+      type: item
+      item:
+        material: ENDER_CHEST
+        quantity: 1
+      buyPrice: 5000
+      sellPrice: 100
+      slot: 12
+    CHEST:
+      type: item
+      item:
+        material: CHEST
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 13
+    TRAPPED_CHEST:
+      type: item
+      item:
+        material: TRAPPED_CHEST
+        quantity: 1
+      buyPrice: 30
+      sellPrice: -1
+      slot: 14
+    BARREL:
+      type: item
+      item:
+        material: BARREL
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 15
+    COMPOSTER:
+      type: item
+      item:
+        material: COMPOSTER
+        quantity: 1
+      buyPrice: 45.25
+      sellPrice: -1
+      slot: 16
+    CAULDRON:
+      type: item
+      item:
+        material: CAULDRON
+        quantity: 1
+      buyPrice: 85.95
+      sellPrice: -1
+      slot: 19
+    CRAFTING_TABLE:
+      type: item
+      item:
+        material: CRAFTING_TABLE
+        quantity: 1
+      buyPrice: 10.25
+      sellPrice: -1
+      slot: 20
+    NOTE_BLOCK:
+      type: item
+      item:
+        material: NOTE_BLOCK
+        quantity: 1
+      buyPrice: 25.10
+      sellPrice: -1
+      slot: 21
+    CHAIN:
+      type: item
+      item:
+        material: CHAIN
+        quantity: 4
+      buyPrice: 15.75
+      sellPrice: -1
+      slot: 22
+    PAINTING:
+      type: item
+      item:
+        material: PAINTING
+        quantity: 1
+      buyPrice: 10
+      sellPrice: -1
+      slot: 23
+    FLOWER_POT:
+      type: item
+      item:
+        material: FLOWER_POT
+        quantity: 1
+      buyPrice: 9.75
+      sellPrice: -1
+      slot: 24
+    LADDER:
+      type: item
+      item:
+        material: LADDER
+        quantity: 4
+      buyPrice: 10.65
+      sellPrice: -1
+      slot: 25
+    ARMOR_STAND:
+      type: item
+      item:
+        material: ARMOR_STAND
+        quantity: 2
+      buyPrice: 18.25
+      sellPrice: -1
+      slot: 28
+    COBWEB:
+      type: item
+      item:
+        material: COBWEB
+        quantity: 2
+      buyPrice: 19.15
+      sellPrice: -1
+      slot: 29
+    LECTERN:
+      type: item
+      item:
+        material: LECTERN
+        quantity: 1
+      buyPrice: 15.65
+      sellPrice: -1
+      slot: 30
+    TARGET:
+      type: item
+      item:
+        material: TARGET
+        quantity: 1
+      buyPrice: 12.85
+      sellPrice: -1
+      slot: 31
+    TRIPWIRE_HOOK:
+      type: item
+      item:
+        material: TRIPWIRE_HOOK
+        quantity: 2
+      buyPrice: 10.55
+      sellPrice: -1
+      slot: 32
+    TORCH:
+      type: item
+      item:
+        material: TORCH
+        quantity: 4
+      buyPrice: 10
+      sellPrice: -1
+      slot: 33
+    CAMPFIRE:
+      type: item
+      item:
+        material: CAMPFIRE
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 34
+    LANTERN:
+      type: item
+      item:
+        material: LANTERN
+        quantity: 1
+      buyPrice: 30
+      sellPrice: -1
+      slot: 37
+    SEA_LANTERN:
+      type: item
+      item:
+        material: SEA_LANTERN
+        quantity: 1
+      buyPrice: 25.85
+      sellPrice: -1
+      slot: 38
+    GLOWSTONE:
+      type: item
+      item:
+        material: GLOWSTONE
+        quantity: 1
+      buyPrice: 22.35
+      sellPrice: -1
+      slot: 39
+    SHROOMLIGHT:
+      type: item
+      item:
+        material: SHROOMLIGHT
+        quantity: 1
+      buyPrice: 30.25
+      sellPrice: -1
+      slot: 40
+    OCHRE_FROGLIGHT:
+      type: item
+      item:
+        material: OCHRE_FROGLIGHT
+        quantity: 1
+      buyPrice: 35.75
+      sellPrice: -1
+      slot: 41
+    VERDANT_FROGLIGHT:
+      type: item
+      item:
+        material: VERDANT_FROGLIGHT
+        quantity: 1
+      buyPrice: 42.50
+      sellPrice: -1
+      slot: 42
+    PEARLESCENT_FROGLIGHT:
+      type: item
+      item:
+        material: PEARLESCENT_FROGLIGHT
+        quantity: 1
+      buyPrice: 50.85
+      sellPrice: -1
+      slot: 43
+    ## PAGE 2 ##
+    BACKGROUND_BLACK_1:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+      page: 2
+    BACKGROUND_GRAY_1:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+      page: 2
+    ITEM_BALANCE_1:
+      type: special
+      special: BALANCE
+      slot: 4
+      page: 2
+    STONECUTTER:
+      type: item
+      item:
+        material: STONECUTTER
+        quantity: 1
+      buyPrice: 25,75
+      sellPrice: -1
+      slot: 10
+      page: 2
+    CARTOGRAPHY_TABLE:
+      type: item
+      item:
+        material: CARTOGRAPHY_TABLE
+        quantity: 1
+      buyPrice: 25.50
+      sellPrice: -1
+      slot: 11
+      page: 2
+    FLETCHING_TABLE:
+      type: item
+      item:
+        material: FLETCHING_TABLE
+        quantity: 1
+      buyPrice: 32.55
+      sellPrice: -1
+      slot: 12
+      page: 2
+    SMITHING_TABLE:
+      type: item
+      item:
+        material: SMITHING_TABLE
+        quantity: 1
+      buyPrice: 45.25
+      sellPrice: -1
+      slot: 13
+      page: 2
+    GRINDSTONE:
+      type: item
+      item:
+        material: GRINDSTONE
+        quantity: 1
+      buyPrice: 32.75
+      sellPrice: -1
+      slot: 14
+      page: 2
+    LOOM:
+      type: item
+      item:
+        material: LOOM
+        quantity: 1
+      buyPrice: 25
+      sellPrice: -1
+      slot: 15
+      page: 2
+    FURNACE:
+      type: item
+      item:
+        material: FURNACE
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 16
+      page: 2
+    SMOKER:
+      type: item
+      item:
+        material: SMOKER
+        quantity: 1
+      buyPrice: 35
+      sellPrice: -1
+      slot: 19
+      page: 2
+    BLAST_FURNACE:
+      type: item
+      item:
+        material: BLAST_FURNACE
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 20
+      page: 2
+    BREWING_STAND:
+      type: item
+      item:
+        material: BREWING_STAND
+        quantity: 1
+      buyPrice: 45
+      sellPrice: -1
+      slot: 21
+      page: 2
+    SCAFFOLDING:
+      type: item
+      item:
+        material: SCAFFOLDING
+        quantity: 1
+      buyPrice: 7.5
+      sellPrice: -1
+      slot: 22
+      page: 2
+    BELL:
+      type: item
+      item:
+        material: BELL
+        quantity: 1
+      buyPrice: 75
+      sellPrice: -1
+      slot: 23
+      page: 2
+    CONDUIT:
+      type: item
+      item:
+        material: CONDUIT
+        quantity: 1
+      buyPrice: 2500
+      sellPrice: -1
+      slot: 24
+      page: 2
+    BEE_NEST:
+      type: item
+      item:
+        material: BEE_NEST
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -1
+      slot: 25
+      page: 2
+    BEEHIVE:
+      type: item
+      item:
+        material: BEEHIVE
+        quantity: 1
+      buyPrice: 250
+      sellPrice: -1
+      slot: 28
+      page: 2
+    JUKEBOX:
+      type: item
+      item:
+        material: JUKEBOX
+        quantity: 1
+      buyPrice: 150
+      sellPrice: -1
+      slot: 29
+      page: 2
+    CANDLE:
+      type: item
+      item:
+        material: CANDLE
+        quantity: 4
+      buyPrice: 25.30
+      sellPrice: -1
+      slot: 30
+      page: 2
+    ITEM_FRAME:
+      type: item
+      item:
+        material: ITEM_FRAME
+        quantity: 2
+      buyPrice: 37.25
+      sellPrice: -1
+      slot: 31
+      page: 2
+    GLOW_ITEM_FRAME:
+      type: item
+      item:
+        material: GLOW_ITEM_FRAME
+        quantity: 2
+      buyPrice: 37.25
+      sellPrice: -1
+      slot: 32
+      page: 2
+    DECORATED_POT:
+      type: item
+      item:
+        material: DECORATED_POT
+        quantity: 1
+      buyPrice: 50
+      sellPrice: -1
+      slot: 33
+      page: 2
+    CHISELED_BOOKSHELF:
+      type: item
+      item:
+        material: CHISELED_BOOKSHELF
+        quantity: 1
+      buyPrice: 40
+      sellPrice: -1
+      slot: 34
+      page: 2
+    CRAFTER:
+      type: item
+      item:
+        material: CRAFTER
+        quantity: 1
+      buyPrice: 1000
+      sellPrice: -1
+      slot: 37
+      page: 2
+    COPPER_BULB:
+      type: item
+      item:
+        material: COPPER_BULB
+        quantity: 1
+      buyPrice: 125.50
+      sellPrice: -1
+      slot: 38
+      page: 2

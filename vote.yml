@@ -1,0 +1,220 @@
+vote:
+  name: "&0&l| &8ꜱʜᴏᴘ - ᴠᴏᴛᴇ &0(%page%/1)"
+  economy: VOTING_PLUGIN
+  fillItem: []
+    #material: GRAY_STAINED_GLASS_PANE
+    #name: " "
+  items:
+    BACKGROUND_BLACK_0:
+      type: DUMMY
+      item:
+        material: BLACK_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 0
+        - 8
+        - 45
+        - 46
+        - 47
+        - 48
+        - 49
+        - 50
+        - 51
+        - 52
+        - 53
+    BACKGROUND_GRAY_0:
+      type: DUMMY
+      item:
+        material: GRAY_STAINED_GLASS_PANE
+        name: " "
+        quantity: 1
+      slots:
+        - 1
+        - 2
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 9
+        - 17
+        - 18
+        - 26
+        - 27
+        - 35
+        - 36
+        - 44
+    ITEM_BALANCE_0:
+      type: special
+      special: BALANCE
+      slot: 4
+    UNBREAKING:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eUnbreaking &8| &eII'
+        enchantments:
+          - 'UNBREAKING:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 2
+      sellPrice: -1
+      slot: 10
+    KNNOCKBACK:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eKnockback &8| &eI'
+        enchantments:
+          - 'KNOCKBACK:1'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 5
+      sellPrice: -1
+      slot: 11
+    SHARPNESS:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eSharpness &8| &eIII'
+        enchantments:
+          - 'SHARPNESS:3'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 4
+      sellPrice: -1
+      slot: 12
+    SWEEPING_EDGE:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eSweeping Edge &8| &eII'
+        enchantments:
+          - 'SWEEPING_EDGE:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 3
+      sellPrice: -1
+      slot: 13
+    LOOTING:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eLooting &8| &eII'
+        enchantments:
+          - 'LOOTING:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 3
+      sellPrice: -1
+      slot: 14
+    FORTUNE:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eFortune &8| &eII'
+        enchantments:
+          - 'FORTUNE:2'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 5
+      sellPrice: -1
+      slot: 15
+    PROTECTION:
+      type: item
+      item:
+        material: ENCHANTED_BOOK
+        quantity: 1
+        name: '&eProtection &8| &eIII'
+        enchantments:
+          - 'PROTECTION:3'
+        flags:
+          - 'HIDE_ENCHANTS'
+      buyPrice: 4
+      sellPrice: -1
+      slot: 16
+    IRON_PICKAXE:
+      type: item
+      item:
+        material: IRON_PICKAXE
+        quantity: 1
+        name: '&eVote Pickaxe'
+        enchantments:
+          - 'UNBREAKING:2'
+          - 'EFFICIENCY:2'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 30
+      sellPrice: -1
+      slot: 19
+    IRON_AXE:
+      type: item
+      item:
+        material: IRON_AXE
+        quantity: 1
+        name: '&eVote Axe'
+        enchantments:
+          - 'UNBREAKING:2'
+          - 'EFFICIENCY:2'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 35
+      sellPrice: -1
+      slot: 20
+    IRON_HOE:
+      type: item
+      item:
+        material: IRON_HOE
+        quantity: 1
+        name: '&eVote Hoe'
+        enchantments:
+          - 'UNBREAKING:2'
+          - 'EFFICIENCY:2'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 25
+      sellPrice: -1
+      slot: 21
+    IRON_SHOVEL:
+      type: item
+      item:
+        material: IRON_SHOVEL
+        quantity: 1
+        name: '&eVote Shovel'
+        enchantments:
+          - 'UNBREAKING:2'
+          - 'EFFICIENCY:2'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 25
+      sellPrice: -1
+      slot: 22
+    FISHING_ROD:
+      type: item
+      item:
+        material: FISHING_ROD
+        quantity: 1
+        name: '&eVote Fishing Rod'
+        enchantments:
+          - 'UNBREAKING:2'
+          - 'LUCK_OF_THE_SEA:1'
+        flags:
+          - 'HIDE_ATTRIBUTES'
+      buyPrice: 15
+      sellPrice: -1
+      slot: 23
+    NETHERITE_INGOT:
+      type: item
+      item:
+        material: NETHERITE_INGOT
+        quantity: 1
+      buyPrice: 20
+      sellPrice: -1
+      slot: 24
