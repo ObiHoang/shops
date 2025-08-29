@@ -445,3 +445,12 @@ ores:
       sellPrice: -1
       slot: 31
       page: 2
+    NETHER_SKIBIDI_OREE:
+      type: item
+      item:
+        material: NETHER_SKIBIDI_OREE
+        quantity: 1
+      buyPrice: 100
+      sellPrice: -20
+      slot: 32
+      page: 2
